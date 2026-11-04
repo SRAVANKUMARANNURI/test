@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_einvoice_log_account_invoice,einvoice.log.account.invoice,model_einvoice_log,account.group_account_invoice,1,0,0,0
+access_einvoice_log_account_manager,einvoice.log.account.manager,model_einvoice_log,account.group_account_manager,1,1,1,1
+access_einvoice_config_system,einvoice.config.system,model_einvoice_config,base.group_system,1,1,1,0
+access_einvoice_purchase_user,einvoice.purchase.user,model_einvoice_purchase,account.group_account_invoice,1,1,1,0
+access_einvoice_purchase_fetch_user,einvoice.purchase.fetch.user,model_einvoice_purchase_fetch,account.group_account_invoice,1,1,1,1
+access_einvoice_purchase_line_user,einvoice.purchase.line.user,model_einvoice_purchase_line,account.group_account_invoice,1,1,1,1
+access_einvoice_purchase_value_user,einvoice.purchase.value.user,model_einvoice_purchase_value,account.group_account_invoice,1,1,1,1
+access_einvoice_unit_code_user,einvoice.unit.code.user,model_einvoice_unit_code,base.group_user,1,0,0,0
+access_einvoice_unit_code_system,einvoice.unit.code.system,model_einvoice_unit_code,base.group_system,1,1,1,1
+access_einvoice_attachment_invoice,einvoice.attachment.invoice,model_einvoice_attachment,account.group_account_invoice,1,1,1,1

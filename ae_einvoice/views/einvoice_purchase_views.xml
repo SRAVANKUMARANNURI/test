@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_einvoice_purchase_fetch_form" model="ir.ui.view">
+        <field name="name">einvoice.purchase.fetch.form</field>
+        <field name="model">einvoice.purchase.fetch</field>
+        <field name="arch" type="xml">
+            <form string="Fetch AP Invoices from Cygnet">
+                <group string="Entity">
+                    <field name="company_id" readonly="1" options="{'no_create': True, 'no_open': True}"/>
+                    <field name="country"/>
+                    <field name="entity_tax_reg_no"/>
+                    <field name="entity_tin"/>
+                    <field name="entity_name"/>
+                </group>
+                <group string="Date Filters">
+                    <field name="from_document_date"/>
+                    <field name="to_document_date"/>
+                    <field name="from_stamp"/>
+                    <field name="to_stamp"/>
+                </group>
+                <div class="text-muted" invisible="not last_fetched_up_to">
++                    <strong>Last fetched up to: </strong><field name="last_fetched_up_to" readonly="1" class="oe_inline"/> for this company.
++                </div>
+                <div class="text-muted">Review the entity TIN before fetching. Date/time inputs are displayed in your Odoo timezone and sent as UTC. This fetch stores lookup summaries only; full purchase details are retrieved separately.</div>
+                <footer>
+                    <button name="action_fetch" type="object" string="Fetch Invoices" class="btn-primary"/>
+                    <button string="Cancel" special="cancel" class="btn-secondary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="action_einvoice_purchase_fetch" model="ir.actions.act_window">
+        <field name="name">Fetch AP Invoices</field>
+        <field name="res_model">einvoice.purchase.fetch</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+    <record id="view_einvoice_purchase_list" model="ir.ui.view">
+        <field name="name">einvoice.purchase.list</field>
+        <field name="model">einvoice.purchase</field>
+        <field name="arch" type="xml">
+            <list string="AP E-Invoices" create="false" edit="false" delete="false">
+                <header>
+                    <button name="%(action_einvoice_purchase_fetch)d" type="action" string="Fetch from Cygnet" display="always" class="btn-primary"/>
+                </header>
+                <field name="document_number"/>
+                <field name="document_type"/>
+                <field name="document_date"/>
+                <field name="supplier_tax_reg_no"/>
+                <field name="entity_tax_reg_no" optional="hide"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="date_added" optional="show"/>
+                <field name="last_fetched" optional="show"/>
+            </list>
+        </field>
+    </record>
+    <record id="view_einvoice_purchase_form" model="ir.ui.view">
+        <field name="name">einvoice.purchase.form</field>
+        <field name="model">einvoice.purchase</field>
+        <field name="arch" type="xml">
+            <form string="AP E-Invoice" create="false" edit="false" delete="false">
+                <sheet>
+                    <group>
+                        <group string="Document">
+                            <field name="document_number"/>
+                            <field name="document_type"/>
+                            <field name="document_date"/>
+                            <field name="supply_type"/>
+                            <field name="supplier_tax_reg_no"/>
+                        </group>
+                        <group string="Entity">
+                            <field name="company_id"/>
+                            <field name="country"/>
+                            <field name="entity_tax_reg_no"/>
+                            <field name="entity_tin"/>
+                            <field name="entity_name"/>
+                            <field name="date_added"/>
+                            <field name="last_fetched"/>
+                        </group>
+                    </group>
+                    <notebook><page string="Lookup Response"><field name="lookup_payload"/></page></notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="action_einvoice_ap" model="ir.actions.act_window">
+        <field name="name">AP E-Invoices</field>
+        <field name="res_model">einvoice.purchase</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html"><p class="o_view_nocontent_smiling_face">Fetch supplier invoice summaries from Cygnet.</p></field>
+    </record>
+    <menuitem id="menu_einvoice_ap" name="AP" parent="menu_einvoice_root" action="action_einvoice_ap" sequence="20" groups="account.group_account_invoice"/>
+</odoo>

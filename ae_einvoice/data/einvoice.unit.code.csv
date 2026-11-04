@@ -1,0 +1,2163 @@
+id,code,name
+unit_10,10,group
+unit_11,11,outfit
+unit_13,13,ration
+unit_14,14,shot
+unit_15,15,"stick, military"
+unit_20,20,twenty foot container
+unit_21,21,forty foot container
+unit_22,22,decilitre per gram
+unit_23,23,gram per cubic centimetre
+unit_24,24,theoretical pound
+unit_25,25,gram per square centimetre
+unit_27,27,theoretical ton
+unit_28,28,kilogram per square metre
+unit_33,33,kilopascal square metre per gram
+unit_34,34,kilopascal per millimetre
+unit_35,35,millilitre per square centimetre second
+unit_37,37,ounce per square foot
+unit_38,38,"ounce per square foot per 0,01inch"
+unit_40,40,millilitre per second
+unit_41,41,millilitre per minute
+unit_56,56,sitas
+unit_57,57,mesh
+unit_58,58,net kilogram
+unit_59,59,part per million
+unit_60,60,percent weight
+unit_61,61,part per billion (US)
+unit_74,74,millipascal
+unit_77,77,milli-inch
+unit_80,80,pound per square inch absolute
+unit_81,81,henry
+unit_85,85,foot pound-force
+unit_87,87,pound per cubic foot
+unit_89,89,poise
+unit_91,91,stokes
+unit_1I,1I,fixed rate
+unit_2A,2A,radian per second
+unit_2B,2B,radian per second squared
+unit_2C,2C,roentgen
+unit_2G,2G,volt AC
+unit_2H,2H,volt DC
+unit_2I,2I,British thermal unit (international table) per hour
+unit_2J,2J,cubic centimetre per second
+unit_2K,2K,cubic foot per hour
+unit_2L,2L,cubic foot per minute
+unit_2M,2M,centimetre per second
+unit_2N,2N,decibel
+unit_2P,2P,kilobyte
+unit_2Q,2Q,kilobecquerel
+unit_2R,2R,kilocurie
+unit_2U,2U,megagram
+unit_2X,2X,metre per minute
+unit_2Y,2Y,milliroentgen
+unit_2Z,2Z,millivolt
+unit_3B,3B,megajoule
+unit_3C,3C,manmonth
+unit_4C,4C,centistokes
+unit_4G,4G,microlitre
+unit_4H,4H,micrometre (micron)
+unit_4K,4K,milliampere
+unit_4L,4L,megabyte
+unit_4M,4M,milligram per hour
+unit_4N,4N,megabecquerel
+unit_4O,4O,microfarad
+unit_4P,4P,newton per metre
+unit_4Q,4Q,ounce inch
+unit_4R,4R,ounce foot
+unit_4T,4T,picofarad
+unit_4U,4U,pound per hour
+unit_4W,4W,ton (US) per hour
+unit_4X,4X,kilolitre per hour
+unit_5A,5A,barrel (US) per minute
+unit_5B,5B,batch
+unit_5E,5E,MMSCF/day
+unit_5J,5J,hydraulic horse power
+unit_A10,A10,ampere square metre per joule second
+unit_A11,A11,angstrom
+unit_A12,A12,astronomical unit
+unit_A13,A13,attojoule
+unit_A14,A14,barn
+unit_A15,A15,barn per electronvolt
+unit_A16,A16,barn per steradian electronvolt
+unit_A17,A17,barn per steradian
+unit_A18,A18,becquerel per kilogram
+unit_A19,A19,becquerel per cubic metre
+unit_A2,A2,ampere per centimetre
+unit_A20,A20,British thermal unit (international table) per second square foot degree Rankine
+unit_A21,A21,British thermal unit (international table) per pound degree Rankine
+unit_A22,A22,British thermal unit (international table) per second foot degree Rankine
+unit_A23,A23,British thermal unit (international table) per hour square foot degree Rankine
+unit_A24,A24,candela per square metre
+unit_A26,A26,coulomb metre
+unit_A27,A27,coulomb metre squared per volt
+unit_A28,A28,coulomb per cubic centimetre
+unit_A29,A29,coulomb per cubic metre
+unit_A3,A3,ampere per millimetre
+unit_A30,A30,coulomb per cubic millimetre
+unit_A31,A31,coulomb per kilogram second
+unit_A32,A32,coulomb per mole
+unit_A33,A33,coulomb per square centimetre
+unit_A34,A34,coulomb per square metre
+unit_A35,A35,coulomb per square millimetre
+unit_A36,A36,cubic centimetre per mole
+unit_A37,A37,cubic decimetre per mole
+unit_A38,A38,cubic metre per coulomb
+unit_A39,A39,cubic metre per kilogram
+unit_A4,A4,ampere per square centimetre
+unit_A40,A40,cubic metre per mole
+unit_A41,A41,ampere per square metre
+unit_A42,A42,curie per kilogram
+unit_A43,A43,deadweight tonnage
+unit_A44,A44,decalitre
+unit_A45,A45,decametre
+unit_A47,A47,decitex
+unit_A48,A48,degree Rankine
+unit_A49,A49,denier
+unit_A5,A5,ampere square metre
+unit_A53,A53,electronvolt
+unit_A54,A54,electronvolt per metre
+unit_A55,A55,electronvolt square metre
+unit_A56,A56,electronvolt square metre per kilogram
+unit_A59,A59,8-part cloud cover
+unit_A6,A6,ampere per square metre kelvin squared
+unit_A68,A68,exajoule
+unit_A69,A69,farad per metre
+unit_A7,A7,ampere per square millimetre
+unit_A70,A70,femtojoule
+unit_A71,A71,femtometre
+unit_A73,A73,foot per second squared
+unit_A74,A74,foot pound-force per second
+unit_A75,A75,freight ton
+unit_A76,A76,gal
+unit_A8,A8,ampere second
+unit_A84,A84,gigacoulomb per cubic metre
+unit_A85,A85,gigaelectronvolt
+unit_A86,A86,gigahertz
+unit_A87,A87,gigaohm
+unit_A88,A88,gigaohm metre
+unit_A89,A89,gigapascal
+unit_A9,A9,rate
+unit_A90,A90,gigawatt
+unit_A91,A91,gon
+unit_A93,A93,gram per cubic metre
+unit_A94,A94,gram per mole
+unit_A95,A95,gray
+unit_A96,A96,gray per second
+unit_A97,A97,hectopascal
+unit_A98,A98,henry per metre
+unit_A99,A99,bit
+unit_AA,AA,ball
+unit_AB,AB,bulk pack
+unit_ACR,ACR,acre
+unit_ACT,ACT,activity
+unit_AD,AD,byte
+unit_AE,AE,ampere per metre
+unit_AH,AH,additional minute
+unit_AI,AI,average minute per call
+unit_AK,AK,fathom
+unit_AL,AL,access line
+unit_AMH,AMH,ampere hour
+unit_AMP,AMP,ampere
+unit_ANN,ANN,year
+unit_APZ,APZ,troy ounce or apothecary ounce
+unit_AQ,AQ,anti-hemophilic factor (AHF) unit
+unit_AS,AS,assortment
+unit_ASM,ASM,alcoholic strength by mass
+unit_ASU,ASU,alcoholic strength by volume
+unit_ATM,ATM,standard atmosphere
+unit_AWG,AWG,american wire gauge
+unit_AY,AY,assembly
+unit_AZ,AZ,British thermal unit (international table) per pound
+unit_B1,B1,barrel (US) per day
+unit_B10,B10,bit per second
+unit_B11,B11,joule per kilogram kelvin
+unit_B12,B12,joule per metre
+unit_B13,B13,joule per square metre
+unit_B14,B14,joule per metre to the fourth power
+unit_B15,B15,joule per mole
+unit_B16,B16,joule per mole kelvin
+unit_B17,B17,credit
+unit_B18,B18,joule second
+unit_B19,B19,digit
+unit_B20,B20,joule square metre per kilogram
+unit_B21,B21,kelvin per watt
+unit_B22,B22,kiloampere
+unit_B23,B23,kiloampere per square metre
+unit_B24,B24,kiloampere per metre
+unit_B25,B25,kilobecquerel per kilogram
+unit_B26,B26,kilocoulomb
+unit_B27,B27,kilocoulomb per cubic metre
+unit_B28,B28,kilocoulomb per square metre
+unit_B29,B29,kiloelectronvolt
+unit_B3,B3,batting pound
+unit_B30,B30,gibibit
+unit_B31,B31,kilogram metre per second
+unit_B32,B32,kilogram metre squared
+unit_B33,B33,kilogram metre squared per second
+unit_B34,B34,kilogram per cubic decimetre
+unit_B35,B35,kilogram per litre
+unit_B4,B4,"barrel, imperial"
+unit_B41,B41,kilojoule per kelvin
+unit_B42,B42,kilojoule per kilogram
+unit_B43,B43,kilojoule per kilogram kelvin
+unit_B44,B44,kilojoule per mole
+unit_B45,B45,kilomole
+unit_B46,B46,kilomole per cubic metre
+unit_B47,B47,kilonewton
+unit_B48,B48,kilonewton metre
+unit_B49,B49,kiloohm
+unit_B50,B50,kiloohm metre
+unit_B52,B52,kilosecond
+unit_B53,B53,kilosiemens
+unit_B54,B54,kilosiemens per metre
+unit_B55,B55,kilovolt per metre
+unit_B56,B56,kiloweber per metre
+unit_B57,B57,light year
+unit_B58,B58,litre per mole
+unit_B59,B59,lumen hour
+unit_B60,B60,lumen per square metre
+unit_B61,B61,lumen per watt
+unit_B62,B62,lumen second
+unit_B63,B63,lux hour
+unit_B64,B64,lux second
+unit_B66,B66,megaampere per square metre
+unit_B67,B67,megabecquerel per kilogram
+unit_B68,B68,gigabit
+unit_B69,B69,megacoulomb per cubic metre
+unit_B7,B7,cycle
+unit_B70,B70,megacoulomb per square metre
+unit_B71,B71,megaelectronvolt
+unit_B72,B72,megagram per cubic metre
+unit_B73,B73,meganewton
+unit_B74,B74,meganewton metre
+unit_B75,B75,megaohm
+unit_B76,B76,megaohm metre
+unit_B77,B77,megasiemens per metre
+unit_B78,B78,megavolt
+unit_B79,B79,megavolt per metre
+unit_B8,B8,joule per cubic metre
+unit_B80,B80,gigabit per second
+unit_B81,B81,reciprocal metre squared reciprocal second
+unit_B82,B82,inch per linear foot
+unit_B83,B83,metre to the fourth power
+unit_B84,B84,microampere
+unit_B85,B85,microbar
+unit_B86,B86,microcoulomb
+unit_B87,B87,microcoulomb per cubic metre
+unit_B88,B88,microcoulomb per square metre
+unit_B89,B89,microfarad per metre
+unit_B90,B90,microhenry
+unit_B91,B91,microhenry per metre
+unit_B92,B92,micronewton
+unit_B93,B93,micronewton metre
+unit_B94,B94,microohm
+unit_B95,B95,microohm metre
+unit_B96,B96,micropascal
+unit_B97,B97,microradian
+unit_B98,B98,microsecond
+unit_B99,B99,microsiemens
+unit_BAR,BAR,bar [unit of pressure]
+unit_BB,BB,base box
+unit_BFT,BFT,board foot
+unit_BHP,BHP,brake horse power
+unit_BIL,BIL,billion (EUR)
+unit_BLD,BLD,dry barrel (US)
+unit_BLL,BLL,barrel (US)
+unit_BP,BP,hundred board foot
+unit_BPM,BPM,beats per minute
+unit_BQL,BQL,becquerel
+unit_BTU,BTU,British thermal unit (international table)
+unit_BUA,BUA,bushel (US)
+unit_BUI,BUI,bushel (UK)
+unit_C0,C0,call
+unit_C10,C10,millifarad
+unit_C11,C11,milligal
+unit_C12,C12,milligram per metre
+unit_C13,C13,milligray
+unit_C14,C14,millihenry
+unit_C15,C15,millijoule
+unit_C16,C16,millimetre per second
+unit_C17,C17,millimetre squared per second
+unit_C18,C18,millimole
+unit_C19,C19,mole per kilogram
+unit_C20,C20,millinewton
+unit_C21,C21,kibibit
+unit_C22,C22,millinewton per metre
+unit_C23,C23,milliohm metre
+unit_C24,C24,millipascal second
+unit_C25,C25,milliradian
+unit_C26,C26,millisecond
+unit_C27,C27,millisiemens
+unit_C28,C28,millisievert
+unit_C29,C29,millitesla
+unit_C3,C3,microvolt per metre
+unit_C30,C30,millivolt per metre
+unit_C31,C31,milliwatt
+unit_C32,C32,milliwatt per square metre
+unit_C33,C33,milliweber
+unit_C34,C34,mole
+unit_C35,C35,mole per cubic decimetre
+unit_C36,C36,mole per cubic metre
+unit_C37,C37,kilobit
+unit_C38,C38,mole per litre
+unit_C39,C39,nanoampere
+unit_C40,C40,nanocoulomb
+unit_C41,C41,nanofarad
+unit_C42,C42,nanofarad per metre
+unit_C43,C43,nanohenry
+unit_C44,C44,nanohenry per metre
+unit_C45,C45,nanometre
+unit_C46,C46,nanoohm metre
+unit_C47,C47,nanosecond
+unit_C48,C48,nanotesla
+unit_C49,C49,nanowatt
+unit_C50,C50,neper
+unit_C51,C51,neper per second
+unit_C52,C52,picometre
+unit_C53,C53,newton metre second
+unit_C54,C54,newton metre squared per kilogram squared
+unit_C55,C55,newton per square metre
+unit_C56,C56,newton per square millimetre
+unit_C57,C57,newton second
+unit_C58,C58,newton second per metre
+unit_C59,C59,octave
+unit_C60,C60,ohm centimetre
+unit_C61,C61,ohm metre
+unit_C62,C62,one
+unit_C63,C63,parsec
+unit_C64,C64,pascal per kelvin
+unit_C65,C65,pascal second
+unit_C66,C66,pascal second per cubic metre
+unit_C67,C67,pascal second per metre
+unit_C68,C68,petajoule
+unit_C69,C69,phon
+unit_C7,C7,centipoise
+unit_C70,C70,picoampere
+unit_C71,C71,picocoulomb
+unit_C72,C72,picofarad per metre
+unit_C73,C73,picohenry
+unit_C74,C74,kilobit per second
+unit_C75,C75,picowatt
+unit_C76,C76,picowatt per square metre
+unit_C78,C78,pound-force
+unit_C79,C79,kilovolt ampere hour
+unit_C8,C8,millicoulomb per kilogram
+unit_C80,C80,rad
+unit_C81,C81,radian
+unit_C82,C82,radian square metre per mole
+unit_C83,C83,radian square metre per kilogram
+unit_C84,C84,radian per metre
+unit_C85,C85,reciprocal angstrom
+unit_C86,C86,reciprocal cubic metre
+unit_C87,C87,reciprocal cubic metre per second
+unit_C88,C88,reciprocal electron volt per cubic metre
+unit_C89,C89,reciprocal henry
+unit_C9,C9,coil group
+unit_C90,C90,reciprocal joule per cubic metre
+unit_C91,C91,reciprocal kelvin or kelvin to the power minus one
+unit_C92,C92,reciprocal metre
+unit_C93,C93,reciprocal square metre
+unit_C94,C94,reciprocal minute
+unit_C95,C95,reciprocal mole
+unit_C96,C96,reciprocal pascal or pascal to the power minus one
+unit_C97,C97,reciprocal second
+unit_C99,C99,reciprocal second per metre squared
+unit_CCT,CCT,carrying capacity in metric ton
+unit_CDL,CDL,candela
+unit_CEL,CEL,degree Celsius
+unit_CEN,CEN,hundred
+unit_CG,CG,card
+unit_CGM,CGM,centigram
+unit_CKG,CKG,coulomb per kilogram
+unit_CLF,CLF,hundred leave
+unit_CLT,CLT,centilitre
+unit_CMK,CMK,square centimetre
+unit_CMQ,CMQ,cubic centimetre
+unit_CMT,CMT,centimetre
+unit_CNP,CNP,hundred pack
+unit_CNT,CNT,cental (UK)
+unit_COU,COU,coulomb
+unit_CTG,CTG,content gram
+unit_CTM,CTM,metric carat
+unit_CTN,CTN,content ton (metric)
+unit_CUR,CUR,curie
+unit_CWA,CWA,hundred pound (cwt) / hundred weight (US)
+unit_CWI,CWI,hundred weight (UK)
+unit_D03,D03,kilowatt hour per hour
+unit_D04,D04,lot [unit of weight]
+unit_D1,D1,reciprocal second per steradian
+unit_D10,D10,siemens per metre
+unit_D11,D11,mebibit
+unit_D12,D12,siemens square metre per mole
+unit_D13,D13,sievert
+unit_D15,D15,sone
+unit_D16,D16,square centimetre per erg
+unit_D17,D17,square centimetre per steradian erg
+unit_D18,D18,metre kelvin
+unit_D19,D19,square metre kelvin per watt
+unit_D2,D2,reciprocal second per steradian metre squared
+unit_D20,D20,square metre per joule
+unit_D21,D21,square metre per kilogram
+unit_D22,D22,square metre per mole
+unit_D23,D23,pen gram (protein)
+unit_D24,D24,square metre per steradian
+unit_D25,D25,square metre per steradian joule
+unit_D26,D26,square metre per volt second
+unit_D27,D27,steradian
+unit_D29,D29,terahertz
+unit_D30,D30,terajoule
+unit_D31,D31,terawatt
+unit_D32,D32,terawatt hour
+unit_D33,D33,tesla
+unit_D34,D34,tex
+unit_D36,D36,megabit
+unit_D41,D41,tonne per cubic metre
+unit_D42,D42,tropical year
+unit_D43,D43,unified atomic mass unit
+unit_D44,D44,var
+unit_D45,D45,volt squared per kelvin squared
+unit_D46,D46,volt - ampere
+unit_D47,D47,volt per centimetre
+unit_D48,D48,volt per kelvin
+unit_D49,D49,millivolt per kelvin
+unit_D5,D5,kilogram per square centimetre
+unit_D50,D50,volt per metre
+unit_D51,D51,volt per millimetre
+unit_D52,D52,watt per kelvin
+unit_D53,D53,watt per metre kelvin
+unit_D54,D54,watt per square metre
+unit_D55,D55,watt per square metre kelvin
+unit_D56,D56,watt per square metre kelvin to the fourth power
+unit_D57,D57,watt per steradian
+unit_D58,D58,watt per steradian square metre
+unit_D59,D59,weber per metre
+unit_D6,D6,roentgen per second
+unit_D60,D60,weber per millimetre
+unit_D61,D61,minute [unit of angle]
+unit_D62,D62,second [unit of angle]
+unit_D63,D63,book
+unit_D65,D65,round
+unit_D68,D68,number of words
+unit_D69,D69,inch to the fourth power
+unit_D73,D73,joule square metre
+unit_D74,D74,kilogram per mole
+unit_D77,D77,megacoulomb
+unit_D78,D78,megajoule per second
+unit_D80,D80,microwatt
+unit_D81,D81,microtesla
+unit_D82,D82,microvolt
+unit_D83,D83,millinewton metre
+unit_D85,D85,microwatt per square metre
+unit_D86,D86,millicoulomb
+unit_D87,D87,millimole per kilogram
+unit_D88,D88,millicoulomb per cubic metre
+unit_D89,D89,millicoulomb per square metre
+unit_D91,D91,rem
+unit_D93,D93,second per cubic metre
+unit_D94,D94,second per cubic metre radian
+unit_D95,D95,joule per gram
+unit_DAA,DAA,decare
+unit_DAD,DAD,ten day
+unit_DAY,DAY,day
+unit_DB,DB,dry pound
+unit_DBM,DBM,Decibel-milliwatts
+unit_DBW,DBW,Decibel watt
+unit_DD,DD,degree [unit of angle]
+unit_DEC,DEC,decade
+unit_DG,DG,decigram
+unit_DJ,DJ,decagram
+unit_DLT,DLT,decilitre
+unit_DMA,DMA,cubic decametre
+unit_DMK,DMK,square decimetre
+unit_DMO,DMO,standard kilolitre
+unit_DMQ,DMQ,cubic decimetre
+unit_DMT,DMT,decimetre
+unit_DN,DN,decinewton metre
+unit_DPC,DPC,dozen piece
+unit_DPR,DPR,dozen pair
+unit_DPT,DPT,displacement tonnage
+unit_DRA,DRA,dram (US)
+unit_DRI,DRI,dram (UK)
+unit_DRL,DRL,dozen roll
+unit_DT,DT,dry ton
+unit_DTN,DTN,decitonne
+unit_DWT,DWT,pennyweight
+unit_DZN,DZN,dozen
+unit_DZP,DZP,dozen pack
+unit_E01,E01,newton per square centimetre
+unit_E07,E07,megawatt hour per hour
+unit_E08,E08,megawatt per hertz
+unit_E09,E09,milliampere hour
+unit_E10,E10,degree day
+unit_E12,E12,mille
+unit_E14,E14,kilocalorie (international table)
+unit_E15,E15,kilocalorie (thermochemical) per hour
+unit_E16,E16,million Btu(IT) per hour
+unit_E17,E17,cubic foot per second
+unit_E18,E18,tonne per hour
+unit_E19,E19,ping
+unit_E20,E20,megabit per second
+unit_E21,E21,shares
+unit_E22,E22,TEU
+unit_E23,E23,tyre
+unit_E25,E25,active unit
+unit_E27,E27,dose
+unit_E28,E28,air dry ton
+unit_E30,E30,strand
+unit_E31,E31,square metre per litre
+unit_E32,E32,litre per hour
+unit_E33,E33,foot per thousand
+unit_E34,E34,gigabyte
+unit_E35,E35,terabyte
+unit_E36,E36,petabyte
+unit_E37,E37,pixel
+unit_E38,E38,megapixel
+unit_E39,E39,dots per inch
+unit_E4,E4,gross kilogram
+unit_E40,E40,part per hundred thousand
+unit_E41,E41,kilogram-force per square millimetre
+unit_E42,E42,kilogram-force per square centimetre
+unit_E43,E43,joule per square centimetre
+unit_E44,E44,kilogram-force metre per square centimetre
+unit_E45,E45,milliohm
+unit_E46,E46,kilowatt hour per cubic metre
+unit_E47,E47,kilowatt hour per kelvin
+unit_E48,E48,service unit
+unit_E49,E49,working day
+unit_E50,E50,accounting unit
+unit_E51,E51,job
+unit_E52,E52,run foot
+unit_E53,E53,test
+unit_E54,E54,trip
+unit_E55,E55,use
+unit_E56,E56,well
+unit_E57,E57,zone
+unit_E58,E58,exabit per second
+unit_E59,E59,exbibyte
+unit_E60,E60,pebibyte
+unit_E61,E61,tebibyte
+unit_E62,E62,gibibyte
+unit_E63,E63,mebibyte
+unit_E64,E64,kibibyte
+unit_E65,E65,exbibit per metre
+unit_E66,E66,exbibit per square metre
+unit_E67,E67,exbibit per cubic metre
+unit_E68,E68,gigabyte per second
+unit_E69,E69,gibibit per metre
+unit_E70,E70,gibibit per square metre
+unit_E71,E71,gibibit per cubic metre
+unit_E72,E72,kibibit per metre
+unit_E73,E73,kibibit per square metre
+unit_E74,E74,kibibit per cubic metre
+unit_E75,E75,mebibit per metre
+unit_E76,E76,mebibit per square metre
+unit_E77,E77,mebibit per cubic metre
+unit_E78,E78,petabit
+unit_E79,E79,petabit per second
+unit_E80,E80,pebibit per metre
+unit_E81,E81,pebibit per square metre
+unit_E82,E82,pebibit per cubic metre
+unit_E83,E83,terabit
+unit_E84,E84,terabit per second
+unit_E85,E85,tebibit per metre
+unit_E86,E86,tebibit per cubic metre
+unit_E87,E87,tebibit per square metre
+unit_E88,E88,bit per metre
+unit_E89,E89,bit per square metre
+unit_E90,E90,reciprocal centimetre
+unit_E91,E91,reciprocal day
+unit_E92,E92,cubic decimetre per hour
+unit_E93,E93,kilogram per hour
+unit_E94,E94,kilomole per second
+unit_E95,E95,mole per second
+unit_E96,E96,degree per second
+unit_E97,E97,millimetre per degree Celcius metre
+unit_E98,E98,degree Celsius per kelvin
+unit_E99,E99,hectopascal per bar
+unit_EA,EA,each
+unit_EB,EB,electronic mail box
+unit_EQ,EQ,equivalent gallon
+unit_F01,F01,bit per cubic metre
+unit_F02,F02,kelvin per kelvin
+unit_F03,F03,kilopascal per bar
+unit_F04,F04,millibar per bar
+unit_F05,F05,megapascal per bar
+unit_F06,F06,poise per bar
+unit_F07,F07,pascal per bar
+unit_F08,F08,milliampere per inch
+unit_F10,F10,kelvin per hour
+unit_F11,F11,kelvin per minute
+unit_F12,F12,kelvin per second
+unit_F13,F13,slug
+unit_F14,F14,gram per kelvin
+unit_F15,F15,kilogram per kelvin
+unit_F16,F16,milligram per kelvin
+unit_F17,F17,pound-force per foot
+unit_F18,F18,kilogram square centimetre
+unit_F19,F19,kilogram square millimetre
+unit_F20,F20,pound inch squared
+unit_F21,F21,pound-force inch
+unit_F22,F22,pound-force foot per ampere
+unit_F23,F23,gram per cubic decimetre
+unit_F24,F24,kilogram per kilomol
+unit_F25,F25,gram per hertz
+unit_F26,F26,gram per day
+unit_F27,F27,gram per hour
+unit_F28,F28,gram per minute
+unit_F29,F29,gram per second
+unit_F30,F30,kilogram per day
+unit_F31,F31,kilogram per minute
+unit_F32,F32,milligram per day
+unit_F33,F33,milligram per minute
+unit_F34,F34,milligram per second
+unit_F35,F35,gram per day kelvin
+unit_F36,F36,gram per hour kelvin
+unit_F37,F37,gram per minute kelvin
+unit_F38,F38,gram per second kelvin
+unit_F39,F39,kilogram per day kelvin
+unit_F40,F40,kilogram per hour kelvin
+unit_F41,F41,kilogram per minute kelvin
+unit_F42,F42,kilogram per second kelvin
+unit_F43,F43,milligram per day kelvin
+unit_F44,F44,milligram per hour kelvin
+unit_F45,F45,milligram per minute kelvin
+unit_F46,F46,milligram per second kelvin
+unit_F47,F47,newton per millimetre
+unit_F48,F48,pound-force per inch
+unit_F49,F49,rod [unit of distance]
+unit_F50,F50,micrometre per kelvin
+unit_F51,F51,centimetre per kelvin
+unit_F52,F52,metre per kelvin
+unit_F53,F53,millimetre per kelvin
+unit_F54,F54,milliohm per metre
+unit_F55,F55,ohm per mile (statute mile)
+unit_F56,F56,ohm per kilometre
+unit_F57,F57,milliampere per pound-force per square inch
+unit_F58,F58,reciprocal bar
+unit_F59,F59,milliampere per bar
+unit_F60,F60,degree Celsius per bar
+unit_F61,F61,kelvin per bar
+unit_F62,F62,gram per day bar
+unit_F63,F63,gram per hour bar
+unit_F64,F64,gram per minute bar
+unit_F65,F65,gram per second bar
+unit_F66,F66,kilogram per day bar
+unit_F67,F67,kilogram per hour bar
+unit_F68,F68,kilogram per minute bar
+unit_F69,F69,kilogram per second bar
+unit_F70,F70,milligram per day bar
+unit_F71,F71,milligram per hour bar
+unit_F72,F72,milligram per minute bar
+unit_F73,F73,milligram per second bar
+unit_F74,F74,gram per bar
+unit_F75,F75,milligram per bar
+unit_F76,F76,milliampere per millimetre
+unit_F77,F77,pascal second per kelvin
+unit_F78,F78,inch of water
+unit_F79,F79,inch of mercury
+unit_F80,F80,water horse power
+unit_F81,F81,bar per kelvin
+unit_F82,F82,hectopascal per kelvin
+unit_F83,F83,kilopascal per kelvin
+unit_F84,F84,millibar per kelvin
+unit_F85,F85,megapascal per kelvin
+unit_F86,F86,poise per kelvin
+unit_F87,F87,volt per litre minute
+unit_F88,F88,newton centimetre
+unit_F89,F89,newton metre per degree
+unit_F90,F90,newton metre per ampere
+unit_F91,F91,bar litre per second
+unit_F92,F92,bar cubic metre per second
+unit_F93,F93,hectopascal litre per second
+unit_F94,F94,hectopascal cubic metre per second
+unit_F95,F95,millibar litre per second
+unit_F96,F96,millibar cubic metre per second
+unit_F97,F97,megapascal litre per second
+unit_F98,F98,megapascal cubic metre per second
+unit_F99,F99,pascal litre per second
+unit_FAH,FAH,degree Fahrenheit
+unit_FAR,FAR,farad
+unit_FBM,FBM,fibre metre
+unit_FC,FC,thousand cubic foot
+unit_FF,FF,hundred cubic metre
+unit_FH,FH,micromole
+unit_FIT,FIT,failures in time
+unit_FL,FL,flake ton
+unit_FNU,FNU,Formazin nephelometric unit
+unit_FOT,FOT,foot
+unit_FP,FP,pound per square foot
+unit_FR,FR,foot per minute
+unit_FS,FS,foot per second
+unit_FTK,FTK,square foot
+unit_FTQ,FTQ,cubic foot
+unit_G01,G01,pascal cubic metre per second
+unit_G04,G04,centimetre per bar
+unit_G05,G05,metre per bar
+unit_G06,G06,millimetre per bar
+unit_G08,G08,square inch per second
+unit_G09,G09,square metre per second kelvin
+unit_G10,G10,stokes per kelvin
+unit_G11,G11,gram per cubic centimetre bar
+unit_G12,G12,gram per cubic decimetre bar
+unit_G13,G13,gram per litre bar
+unit_G14,G14,gram per cubic metre bar
+unit_G15,G15,gram per millilitre bar
+unit_G16,G16,kilogram per cubic centimetre bar
+unit_G17,G17,kilogram per litre bar
+unit_G18,G18,kilogram per cubic metre bar
+unit_G19,G19,newton metre per kilogram
+unit_G2,G2,US gallon per minute
+unit_G20,G20,pound-force foot per pound
+unit_G21,G21,cup [unit of volume]
+unit_G23,G23,peck
+unit_G24,G24,tablespoon (US)
+unit_G25,G25,teaspoon (US)
+unit_G26,G26,stere
+unit_G27,G27,cubic centimetre per kelvin
+unit_G28,G28,litre per kelvin
+unit_G29,G29,cubic metre per kelvin
+unit_G3,G3,Imperial gallon per minute
+unit_G30,G30,millilitre per kelvin
+unit_G31,G31,kilogram per cubic centimetre
+unit_G32,G32,ounce (avoirdupois) per cubic yard
+unit_G33,G33,gram per cubic centimetre kelvin
+unit_G34,G34,gram per cubic decimetre kelvin
+unit_G35,G35,gram per litre kelvin
+unit_G36,G36,gram per cubic metre kelvin
+unit_G37,G37,gram per millilitre kelvin
+unit_G38,G38,kilogram per cubic centimetre kelvin
+unit_G39,G39,kilogram per litre kelvin
+unit_G40,G40,kilogram per cubic metre kelvin
+unit_G41,G41,square metre per second bar
+unit_G42,G42,microsiemens per centimetre
+unit_G43,G43,microsiemens per metre
+unit_G44,G44,nanosiemens per centimetre
+unit_G45,G45,nanosiemens per metre
+unit_G46,G46,stokes per bar
+unit_G47,G47,cubic centimetre per day
+unit_G48,G48,cubic centimetre per hour
+unit_G49,G49,cubic centimetre per minute
+unit_G50,G50,gallon (US) per hour
+unit_G51,G51,litre per second
+unit_G52,G52,cubic metre per day
+unit_G53,G53,cubic metre per minute
+unit_G54,G54,millilitre per day
+unit_G55,G55,millilitre per hour
+unit_G56,G56,cubic inch per hour
+unit_G57,G57,cubic inch per minute
+unit_G58,G58,cubic inch per second
+unit_G59,G59,milliampere per litre minute
+unit_G60,G60,volt per bar
+unit_G61,G61,cubic centimetre per day kelvin
+unit_G62,G62,cubic centimetre per hour kelvin
+unit_G63,G63,cubic centimetre per minute kelvin
+unit_G64,G64,cubic centimetre per second kelvin
+unit_G65,G65,litre per day kelvin
+unit_G66,G66,litre per hour kelvin
+unit_G67,G67,litre per minute kelvin
+unit_G68,G68,litre per second kelvin
+unit_G69,G69,cubic metre per day kelvin
+unit_G70,G70,cubic metre per hour kelvin
+unit_G71,G71,cubic metre per minute kelvin
+unit_G72,G72,cubic metre per second kelvin
+unit_G73,G73,millilitre per day kelvin
+unit_G74,G74,millilitre per hour kelvin
+unit_G75,G75,millilitre per minute kelvin
+unit_G76,G76,millilitre per second kelvin
+unit_G77,G77,millimetre to the fourth power
+unit_G78,G78,cubic centimetre per day bar
+unit_G79,G79,cubic centimetre per hour bar
+unit_G80,G80,cubic centimetre per minute bar
+unit_G81,G81,cubic centimetre per second bar
+unit_G82,G82,litre per day bar
+unit_G83,G83,litre per hour bar
+unit_G84,G84,litre per minute bar
+unit_G85,G85,litre per second bar
+unit_G86,G86,cubic metre per day bar
+unit_G87,G87,cubic metre per hour bar
+unit_G88,G88,cubic metre per minute bar
+unit_G89,G89,cubic metre per second bar
+unit_G90,G90,millilitre per day bar
+unit_G91,G91,millilitre per hour bar
+unit_G92,G92,millilitre per minute bar
+unit_G93,G93,millilitre per second bar
+unit_G94,G94,cubic centimetre per bar
+unit_G95,G95,litre per bar
+unit_G96,G96,cubic metre per bar
+unit_G97,G97,millilitre per bar
+unit_G98,G98,microhenry per kiloohm
+unit_G99,G99,microhenry per ohm
+unit_GB,GB,gallon (US) per day
+unit_GBQ,GBQ,gigabecquerel
+unit_GDW,GDW,"gram, dry weight"
+unit_GE,GE,pound per gallon (US)
+unit_GF,GF,gram per metre (gram per 100 centimetres)
+unit_GFI,GFI,gram of fissile isotope
+unit_GGR,GGR,great gross
+unit_GIA,GIA,gill (US)
+unit_GIC,GIC,"gram, including container"
+unit_GII,GII,gill (UK)
+unit_GIP,GIP,"gram, including inner packaging"
+unit_GJ,GJ,gram per millilitre
+unit_GL,GL,gram per litre
+unit_GLD,GLD,dry gallon (US)
+unit_GLI,GLI,gallon (UK)
+unit_GLL,GLL,gallon (US)
+unit_GM,GM,gram per square metre
+unit_GO,GO,milligram per square metre
+unit_GP,GP,milligram per cubic metre
+unit_GQ,GQ,microgram per cubic metre
+unit_GRM,GRM,gram
+unit_GRN,GRN,grain
+unit_GRO,GRO,gross
+unit_GV,GV,gigajoule
+unit_GWH,GWH,gigawatt hour
+unit_H03,H03,henry per kiloohm
+unit_H04,H04,henry per ohm
+unit_H05,H05,millihenry per kiloohm
+unit_H06,H06,millihenry per ohm
+unit_H07,H07,pascal second per bar
+unit_H08,H08,microbecquerel
+unit_H09,H09,reciprocal year
+unit_H10,H10,reciprocal hour
+unit_H11,H11,reciprocal month
+unit_H12,H12,degree Celsius per hour
+unit_H13,H13,degree Celsius per minute
+unit_H14,H14,degree Celsius per second
+unit_H15,H15,square centimetre per gram
+unit_H16,H16,square decametre
+unit_H18,H18,square hectometre
+unit_H19,H19,cubic hectometre
+unit_H20,H20,cubic kilometre
+unit_H21,H21,blank
+unit_H22,H22,volt square inch per pound-force
+unit_H23,H23,volt per inch
+unit_H24,H24,volt per microsecond
+unit_H25,H25,percent per kelvin
+unit_H26,H26,ohm per metre
+unit_H27,H27,degree per metre
+unit_H28,H28,microfarad per kilometre
+unit_H29,H29,microgram per litre
+unit_H30,H30,square micrometre (square micron)
+unit_H31,H31,ampere per kilogram
+unit_H32,H32,ampere squared second
+unit_H33,H33,farad per kilometre
+unit_H34,H34,hertz metre
+unit_H35,H35,kelvin metre per watt
+unit_H36,H36,megaohm per kilometre
+unit_H37,H37,megaohm per metre
+unit_H38,H38,megaampere
+unit_H39,H39,megahertz kilometre
+unit_H40,H40,newton per ampere
+unit_H41,H41,"newton metre watt to the power minus 0,5"
+unit_H42,H42,pascal per metre
+unit_H43,H43,siemens per centimetre
+unit_H44,H44,teraohm
+unit_H45,H45,volt second per metre
+unit_H46,H46,volt per second
+unit_H47,H47,watt per cubic metre
+unit_H48,H48,attofarad
+unit_H49,H49,centimetre per hour
+unit_H50,H50,reciprocal cubic centimetre
+unit_H51,H51,decibel per kilometre
+unit_H52,H52,decibel per metre
+unit_H53,H53,kilogram per bar
+unit_H54,H54,kilogram per cubic decimetre kelvin
+unit_H55,H55,kilogram per cubic decimetre bar
+unit_H56,H56,kilogram per square metre second
+unit_H57,H57,inch per two pi radiant
+unit_H58,H58,metre per volt second
+unit_H59,H59,square metre per newton
+unit_H60,H60,cubic metre per cubic metre
+unit_H61,H61,millisiemens per centimetre
+unit_H62,H62,millivolt per minute
+unit_H63,H63,milligram per square centimetre
+unit_H64,H64,milligram per gram
+unit_H65,H65,millilitre per cubic metre
+unit_H66,H66,millimetre per year
+unit_H67,H67,millimetre per hour
+unit_H68,H68,millimole per gram
+unit_H69,H69,picopascal per kilometre
+unit_H70,H70,picosecond
+unit_H71,H71,percent per month
+unit_H72,H72,percent per hectobar
+unit_H73,H73,percent per decakelvin
+unit_H74,H74,watt per metre
+unit_H75,H75,decapascal
+unit_H76,H76,gram per millimetre
+unit_H77,H77,module width
+unit_H79,H79,French gauge
+unit_H80,H80,rack unit
+unit_H81,H81,millimetre per minute
+unit_H82,H82,big point
+unit_H83,H83,litre per kilogram
+unit_H84,H84,gram millimetre
+unit_H85,H85,reciprocal week
+unit_H87,H87,piece
+unit_H88,H88,megaohm kilometre
+unit_H89,H89,percent per ohm
+unit_H90,H90,percent per degree
+unit_H91,H91,percent per ten thousand
+unit_H92,H92,percent per one hundred thousand
+unit_H93,H93,percent per hundred
+unit_H94,H94,percent per thousand
+unit_H95,H95,percent per volt
+unit_H96,H96,percent per bar
+unit_H98,H98,percent per inch
+unit_H99,H99,percent per metre
+unit_HA,HA,hank
+unit_HAD,HAD,Piece Day
+unit_HBA,HBA,hectobar
+unit_HBX,HBX,hundred boxes
+unit_HC,HC,hundred count
+unit_HDW,HDW,"hundred kilogram, dry weight"
+unit_HEA,HEA,head
+unit_HGM,HGM,hectogram
+unit_HH,HH,hundred cubic foot
+unit_HIU,HIU,hundred international unit
+unit_HKM,HKM,"hundred kilogram, net mass"
+unit_HLT,HLT,hectolitre
+unit_HM,HM,mile per hour (statute mile)
+unit_HMO,HMO,Piece Month
+unit_HMQ,HMQ,million cubic metre
+unit_HMT,HMT,hectometre
+unit_HPA,HPA,hectolitre of pure alcohol
+unit_HTZ,HTZ,hertz
+unit_HUR,HUR,hour
+unit_HWE,HWE,Piece Week
+unit_IA,IA,inch pound (pound inch)
+unit_IE,IE,person
+unit_INH,INH,inch
+unit_INK,INK,square inch
+unit_INQ,INQ,cubic inch
+unit_ISD,ISD,international sugar degree
+unit_IU,IU,inch per second
+unit_IUG,IUG,international unit per gram
+unit_IV,IV,inch per second squared
+unit_J10,J10,percent per millimetre
+unit_J12,J12,per mille per psi
+unit_J13,J13,degree API
+unit_J14,J14,degree Baume (origin scale)
+unit_J15,J15,degree Baume (US heavy)
+unit_J16,J16,degree Baume (US light)
+unit_J17,J17,degree Balling
+unit_J18,J18,degree Brix
+unit_J19,J19,degree Fahrenheit hour square foot per British thermal unit (thermochemical)
+unit_J2,J2,joule per kilogram
+unit_J20,J20,degree Fahrenheit per kelvin
+unit_J21,J21,degree Fahrenheit per bar
+unit_J22,J22,degree Fahrenheit hour square foot per British thermal unit (international table)
+unit_J23,J23,degree Fahrenheit per hour
+unit_J24,J24,degree Fahrenheit per minute
+unit_J25,J25,degree Fahrenheit per second
+unit_J26,J26,reciprocal degree Fahrenheit
+unit_J27,J27,degree Oechsle
+unit_J28,J28,degree Rankine per hour
+unit_J29,J29,degree Rankine per minute
+unit_J30,J30,degree Rankine per second
+unit_J31,J31,degree Twaddell
+unit_J32,J32,micropoise
+unit_J33,J33,microgram per kilogram
+unit_J34,J34,microgram per cubic metre kelvin
+unit_J35,J35,microgram per cubic metre bar
+unit_J36,J36,microlitre per litre
+unit_J38,J38,baud
+unit_J39,J39,British thermal unit (mean)
+unit_J40,J40,British thermal unit (international table) foot per hour square foot degree Fahrenheit
+unit_J41,J41,British thermal unit (international table) inch per hour square foot degree Fahrenheit
+unit_J42,J42,British thermal unit (international table) inch per second square foot degree Fahrenheit
+unit_J43,J43,British thermal unit (international table) per pound degree Fahrenheit
+unit_J44,J44,British thermal unit (international table) per minute
+unit_J45,J45,British thermal unit (international table) per second
+unit_J46,J46,British thermal unit (thermochemical) foot per hour square foot degree Fahrenheit
+unit_J47,J47,British thermal unit (thermochemical) per hour
+unit_J48,J48,British thermal unit (thermochemical) inch per hour square foot degree Fahrenheit
+unit_J49,J49,British thermal unit (thermochemical) inch per second square foot degree Fahrenheit
+unit_J50,J50,British thermal unit (thermochemical) per pound degree Fahrenheit
+unit_J51,J51,British thermal unit (thermochemical) per minute
+unit_J52,J52,British thermal unit (thermochemical) per second
+unit_J53,J53,coulomb square metre per kilogram
+unit_J54,J54,megabaud
+unit_J55,J55,watt second
+unit_J56,J56,bar per bar
+unit_J57,J57,barrel (UK petroleum)
+unit_J58,J58,barrel (UK petroleum) per minute
+unit_J59,J59,barrel (UK petroleum) per day
+unit_J60,J60,barrel (UK petroleum) per hour
+unit_J61,J61,barrel (UK petroleum) per second
+unit_J62,J62,barrel (US petroleum) per hour
+unit_J63,J63,barrel (US petroleum) per second
+unit_J64,J64,bushel (UK) per day
+unit_J65,J65,bushel (UK) per hour
+unit_J66,J66,bushel (UK) per minute
+unit_J67,J67,bushel (UK) per second
+unit_J68,J68,bushel (US dry) per day
+unit_J69,J69,bushel (US dry) per hour
+unit_J70,J70,bushel (US dry) per minute
+unit_J71,J71,bushel (US dry) per second
+unit_J72,J72,centinewton metre
+unit_J73,J73,centipoise per kelvin
+unit_J74,J74,centipoise per bar
+unit_J75,J75,calorie (mean)
+unit_J76,J76,calorie (international table) per gram degree Celsius
+unit_J78,J78,calorie (thermochemical) per centimetre second degree Celsius
+unit_J79,J79,calorie (thermochemical) per gram degree Celsius
+unit_J81,J81,calorie (thermochemical) per minute
+unit_J82,J82,calorie (thermochemical) per second
+unit_J83,J83,clo
+unit_J84,J84,centimetre per second kelvin
+unit_J85,J85,centimetre per second bar
+unit_J87,J87,cubic centimetre per cubic metre
+unit_J90,J90,cubic decimetre per day
+unit_J91,J91,cubic decimetre per cubic metre
+unit_J92,J92,cubic decimetre per minute
+unit_J93,J93,cubic decimetre per second
+unit_J95,J95,ounce (UK fluid) per day
+unit_J96,J96,ounce (UK fluid) per hour
+unit_J97,J97,ounce (UK fluid) per minute
+unit_J98,J98,ounce (UK fluid) per second
+unit_J99,J99,ounce (US fluid) per day
+unit_JE,JE,joule per kelvin
+unit_JK,JK,megajoule per kilogram
+unit_JM,JM,megajoule per cubic metre
+unit_JNT,JNT,pipeline joint
+unit_JOU,JOU,joule
+unit_JPS,JPS,hundred metre
+unit_JWL,JWL,number of jewels
+unit_K1,K1,kilowatt demand
+unit_K10,K10,ounce (US fluid) per hour
+unit_K11,K11,ounce (US fluid) per minute
+unit_K12,K12,ounce (US fluid) per second
+unit_K13,K13,foot per degree Fahrenheit
+unit_K14,K14,foot per hour
+unit_K15,K15,foot pound-force per hour
+unit_K16,K16,foot pound-force per minute
+unit_K17,K17,foot per psi
+unit_K18,K18,foot per second degree Fahrenheit
+unit_K19,K19,foot per second psi
+unit_K2,K2,kilovolt ampere reactive demand
+unit_K20,K20,reciprocal cubic foot
+unit_K21,K21,cubic foot per degree Fahrenheit
+unit_K22,K22,cubic foot per day
+unit_K23,K23,cubic foot per psi
+unit_K26,K26,gallon (UK) per day
+unit_K27,K27,gallon (UK) per hour
+unit_K28,K28,gallon (UK) per second
+unit_K3,K3,kilovolt ampere reactive hour
+unit_K30,K30,gallon (US liquid) per second
+unit_K31,K31,gram-force per square centimetre
+unit_K32,K32,gill (UK) per day
+unit_K33,K33,gill (UK) per hour
+unit_K34,K34,gill (UK) per minute
+unit_K35,K35,gill (UK) per second
+unit_K36,K36,gill (US) per day
+unit_K37,K37,gill (US) per hour
+unit_K38,K38,gill (US) per minute
+unit_K39,K39,gill (US) per second
+unit_K40,K40,standard acceleration of free fall
+unit_K41,K41,grain per gallon (US)
+unit_K42,K42,horsepower (boiler)
+unit_K43,K43,horsepower (electric)
+unit_K45,K45,inch per degree Fahrenheit
+unit_K46,K46,inch per psi
+unit_K47,K47,inch per second degree Fahrenheit
+unit_K48,K48,inch per second psi
+unit_K49,K49,reciprocal cubic inch
+unit_K50,K50,kilobaud
+unit_K51,K51,kilocalorie (mean)
+unit_K52,K52,kilocalorie (international table) per hour metre degree Celsius
+unit_K53,K53,kilocalorie (thermochemical)
+unit_K54,K54,kilocalorie (thermochemical) per minute
+unit_K55,K55,kilocalorie (thermochemical) per second
+unit_K58,K58,kilomole per hour
+unit_K59,K59,kilomole per cubic metre kelvin
+unit_K6,K6,kilolitre
+unit_K60,K60,kilomole per cubic metre bar
+unit_K61,K61,kilomole per minute
+unit_K62,K62,litre per litre
+unit_K63,K63,reciprocal litre
+unit_K64,K64,pound (avoirdupois) per degree Fahrenheit
+unit_K65,K65,pound (avoirdupois) square foot
+unit_K66,K66,pound (avoirdupois) per day
+unit_K67,K67,pound per foot hour
+unit_K68,K68,pound per foot second
+unit_K69,K69,pound (avoirdupois) per cubic foot degree Fahrenheit
+unit_K70,K70,pound (avoirdupois) per cubic foot psi
+unit_K71,K71,pound (avoirdupois) per gallon (UK)
+unit_K73,K73,pound (avoirdupois) per hour degree Fahrenheit
+unit_K74,K74,pound (avoirdupois) per hour psi
+unit_K75,K75,pound (avoirdupois) per cubic inch degree Fahrenheit
+unit_K76,K76,pound (avoirdupois) per cubic inch psi
+unit_K77,K77,pound (avoirdupois) per psi
+unit_K78,K78,pound (avoirdupois) per minute
+unit_K79,K79,pound (avoirdupois) per minute degree Fahrenheit
+unit_K80,K80,pound (avoirdupois) per minute psi
+unit_K81,K81,pound (avoirdupois) per second
+unit_K82,K82,pound (avoirdupois) per second degree Fahrenheit
+unit_K83,K83,pound (avoirdupois) per second psi
+unit_K84,K84,pound per cubic yard
+unit_K85,K85,pound-force per square foot
+unit_K86,K86,pound-force per square inch degree Fahrenheit
+unit_K87,K87,psi cubic inch per second
+unit_K88,K88,psi litre per second
+unit_K89,K89,psi cubic metre per second
+unit_K90,K90,psi cubic yard per second
+unit_K91,K91,pound-force second per square foot
+unit_K92,K92,pound-force second per square inch
+unit_K93,K93,reciprocal psi
+unit_K94,K94,quart (UK liquid) per day
+unit_K95,K95,quart (UK liquid) per hour
+unit_K96,K96,quart (UK liquid) per minute
+unit_K97,K97,quart (UK liquid) per second
+unit_K98,K98,quart (US liquid) per day
+unit_K99,K99,quart (US liquid) per hour
+unit_KA,KA,cake
+unit_KAT,KAT,katal
+unit_KB,KB,kilocharacter
+unit_KBA,KBA,kilobar
+unit_KCC,KCC,kilogram of choline chloride
+unit_KDW,KDW,kilogram drained net weight
+unit_KEL,KEL,kelvin
+unit_KGM,KGM,kilogram
+unit_KGS,KGS,kilogram per second
+unit_KHY,KHY,kilogram of hydrogen peroxide
+unit_KHZ,KHZ,kilohertz
+unit_KI,KI,kilogram per millimetre width
+unit_KIC,KIC,"kilogram, including container"
+unit_KIP,KIP,"kilogram, including inner packaging"
+unit_KJ,KJ,kilosegment
+unit_KJO,KJO,kilojoule
+unit_KL,KL,kilogram per metre
+unit_KLK,KLK,lactic dry material percentage
+unit_KLX,KLX,kilolux
+unit_KMA,KMA,kilogram of methylamine
+unit_KMH,KMH,kilometre per hour
+unit_KMK,KMK,square kilometre
+unit_KMQ,KMQ,kilogram per cubic metre
+unit_KMT,KMT,kilometre
+unit_KNI,KNI,kilogram of nitrogen
+unit_KNM,KNM,kilonewton per square metre
+unit_KNS,KNS,kilogram named substance
+unit_KNT,KNT,knot
+unit_KO,KO,milliequivalence caustic potash per gram of product
+unit_KPA,KPA,kilopascal
+unit_KPH,KPH,kilogram of potassium hydroxide (caustic potash)
+unit_KPO,KPO,kilogram of potassium oxide
+unit_KPP,KPP,kilogram of phosphorus pentoxide (phosphoric anhydride)
+unit_KR,KR,kiloroentgen
+unit_KSD,KSD,kilogram of substance 90 % dry
+unit_KSH,KSH,kilogram of sodium hydroxide (caustic soda)
+unit_KT,KT,kit
+unit_KTN,KTN,kilotonne
+unit_KUR,KUR,kilogram of uranium
+unit_KVA,KVA,kilovolt - ampere
+unit_KVR,KVR,kilovar
+unit_KVT,KVT,kilovolt
+unit_KW,KW,kilogram per millimetre
+unit_KWH,KWH,kilowatt hour
+unit_KWN,KWN,Kilowatt hour per normalized cubic metre
+unit_KWO,KWO,kilogram of tungsten trioxide
+unit_KWS,KWS,Kilowatt hour per standard cubic metre
+unit_KWT,KWT,kilowatt
+unit_KWY,KWY,kilowatt year
+unit_KX,KX,millilitre per kilogram
+unit_L10,L10,quart (US liquid) per minute
+unit_L11,L11,quart (US liquid) per second
+unit_L12,L12,metre per second kelvin
+unit_L13,L13,metre per second bar
+unit_L14,L14,square metre hour degree Celsius per kilocalorie (international table)
+unit_L15,L15,millipascal second per kelvin
+unit_L16,L16,millipascal second per bar
+unit_L17,L17,milligram per cubic metre kelvin
+unit_L18,L18,milligram per cubic metre bar
+unit_L19,L19,millilitre per litre
+unit_L2,L2,litre per minute
+unit_L20,L20,reciprocal cubic millimetre
+unit_L21,L21,cubic millimetre per cubic metre
+unit_L23,L23,mole per hour
+unit_L24,L24,mole per kilogram kelvin
+unit_L25,L25,mole per kilogram bar
+unit_L26,L26,mole per litre kelvin
+unit_L27,L27,mole per litre bar
+unit_L28,L28,mole per cubic metre kelvin
+unit_L29,L29,mole per cubic metre bar
+unit_L30,L30,mole per minute
+unit_L31,L31,milliroentgen aequivalent men
+unit_L32,L32,nanogram per kilogram
+unit_L33,L33,ounce (avoirdupois) per day
+unit_L34,L34,ounce (avoirdupois) per hour
+unit_L35,L35,ounce (avoirdupois) per minute
+unit_L36,L36,ounce (avoirdupois) per second
+unit_L37,L37,ounce (avoirdupois) per gallon (UK)
+unit_L38,L38,ounce (avoirdupois) per gallon (US)
+unit_L39,L39,ounce (avoirdupois) per cubic inch
+unit_L40,L40,ounce (avoirdupois)-force
+unit_L41,L41,ounce (avoirdupois)-force inch
+unit_L42,L42,picosiemens per metre
+unit_L43,L43,peck (UK)
+unit_L44,L44,peck (UK) per day
+unit_L45,L45,peck (UK) per hour
+unit_L46,L46,peck (UK) per minute
+unit_L47,L47,peck (UK) per second
+unit_L48,L48,peck (US dry) per day
+unit_L49,L49,peck (US dry) per hour
+unit_L50,L50,peck (US dry) per minute
+unit_L51,L51,peck (US dry) per second
+unit_L52,L52,psi per psi
+unit_L53,L53,pint (UK) per day
+unit_L54,L54,pint (UK) per hour
+unit_L55,L55,pint (UK) per minute
+unit_L56,L56,pint (UK) per second
+unit_L57,L57,pint (US liquid) per day
+unit_L58,L58,pint (US liquid) per hour
+unit_L59,L59,pint (US liquid) per minute
+unit_L60,L60,pint (US liquid) per second
+unit_L63,L63,slug per day
+unit_L64,L64,slug per foot second
+unit_L65,L65,slug per cubic foot
+unit_L66,L66,slug per hour
+unit_L67,L67,slug per minute
+unit_L68,L68,slug per second
+unit_L69,L69,tonne per kelvin
+unit_L70,L70,tonne per bar
+unit_L71,L71,tonne per day
+unit_L72,L72,tonne per day kelvin
+unit_L73,L73,tonne per day bar
+unit_L74,L74,tonne per hour kelvin
+unit_L75,L75,tonne per hour bar
+unit_L76,L76,tonne per cubic metre kelvin
+unit_L77,L77,tonne per cubic metre bar
+unit_L78,L78,tonne per minute
+unit_L79,L79,tonne per minute kelvin
+unit_L80,L80,tonne per minute bar
+unit_L81,L81,tonne per second
+unit_L82,L82,tonne per second kelvin
+unit_L83,L83,tonne per second bar
+unit_L84,L84,ton (UK shipping)
+unit_L85,L85,ton long per day
+unit_L86,L86,ton (US shipping)
+unit_L87,L87,ton short per degree Fahrenheit
+unit_L88,L88,ton short per day
+unit_L89,L89,ton short per hour degree Fahrenheit
+unit_L90,L90,ton short per hour psi
+unit_L91,L91,ton short per psi
+unit_L92,L92,ton (UK long) per cubic yard
+unit_L93,L93,ton (US short) per cubic yard
+unit_L94,L94,ton-force (US short)
+unit_L95,L95,common year
+unit_L96,L96,sidereal year
+unit_L98,L98,yard per degree Fahrenheit
+unit_L99,L99,yard per psi
+unit_LA,LA,pound per cubic inch
+unit_LAC,LAC,lactose excess percentage
+unit_LBR,LBR,pound
+unit_LBT,LBT,troy pound (US)
+unit_LD,LD,litre per day
+unit_LEF,LEF,leaf
+unit_LF,LF,linear foot
+unit_LH,LH,labour hour
+unit_LK,LK,link
+unit_LM,LM,linear metre
+unit_LN,LN,length
+unit_LO,LO,lot [unit of procurement]
+unit_LP,LP,liquid pound
+unit_LPA,LPA,litre of pure alcohol
+unit_LR,LR,layer
+unit_LS,LS,lump sum
+unit_LTN,LTN,ton (UK) or long ton (US)
+unit_LTR,LTR,litre
+unit_LUB,LUB,"metric ton, lubricating oil"
+unit_LUM,LUM,lumen
+unit_LUX,LUX,lux
+unit_LY,LY,linear yard
+unit_M1,M1,milligram per litre
+unit_M10,M10,reciprocal cubic yard
+unit_M11,M11,cubic yard per degree Fahrenheit
+unit_M12,M12,cubic yard per day
+unit_M13,M13,cubic yard per hour
+unit_M14,M14,cubic yard per psi
+unit_M15,M15,cubic yard per minute
+unit_M16,M16,cubic yard per second
+unit_M17,M17,kilohertz metre
+unit_M18,M18,gigahertz metre
+unit_M19,M19,Beaufort
+unit_M20,M20,reciprocal megakelvin or megakelvin to the power minus one
+unit_M21,M21,reciprocal kilovolt - ampere reciprocal hour
+unit_M22,M22,millilitre per square centimetre minute
+unit_M23,M23,newton per centimetre
+unit_M24,M24,ohm kilometre
+unit_M25,M25,percent per degree Celsius
+unit_M26,M26,gigaohm per metre
+unit_M27,M27,megahertz metre
+unit_M29,M29,kilogram per kilogram
+unit_M30,M30,reciprocal volt - ampere reciprocal second
+unit_M31,M31,kilogram per kilometre
+unit_M32,M32,pascal second per litre
+unit_M33,M33,millimole per litre
+unit_M34,M34,newton metre per square metre
+unit_M35,M35,millivolt - ampere
+unit_M36,M36,30-day month
+unit_M37,M37,actual/360
+unit_M38,M38,kilometre per second squared
+unit_M39,M39,centimetre per second squared
+unit_M4,M4,monetary value
+unit_M40,M40,yard per second squared
+unit_M41,M41,millimetre per second squared
+unit_M42,M42,mile (statute mile) per second squared
+unit_M43,M43,mil
+unit_M44,M44,revolution
+unit_M45,M45,degree [unit of angle] per second squared
+unit_M46,M46,revolution per minute
+unit_M47,M47,circular mil
+unit_M48,M48,square mile (based on U.S. survey foot)
+unit_M49,M49,chain (based on U.S. survey foot)
+unit_M5,M5,microcurie
+unit_M50,M50,furlong
+unit_M51,M51,foot (U.S. survey)
+unit_M52,M52,mile (based on U.S. survey foot)
+unit_M53,M53,metre per pascal
+unit_M55,M55,metre per radiant
+unit_M56,M56,shake
+unit_M57,M57,mile per minute
+unit_M58,M58,mile per second
+unit_M59,M59,metre per second pascal
+unit_M60,M60,metre per hour
+unit_M61,M61,inch per year
+unit_M62,M62,kilometre per second
+unit_M63,M63,inch per minute
+unit_M64,M64,yard per second
+unit_M65,M65,yard per minute
+unit_M66,M66,yard per hour
+unit_M67,M67,acre-foot (based on U.S. survey foot)
+unit_M68,M68,cord (128 ft3)
+unit_M69,M69,cubic mile (UK statute)
+unit_M7,M7,micro-inch
+unit_M70,M70,"ton, register"
+unit_M71,M71,cubic metre per pascal
+unit_M72,M72,bel
+unit_M73,M73,kilogram per cubic metre pascal
+unit_M74,M74,kilogram per pascal
+unit_M75,M75,kilopound-force
+unit_M76,M76,poundal
+unit_M77,M77,kilogram metre per second squared
+unit_M78,M78,pond
+unit_M79,M79,square foot per hour
+unit_M80,M80,stokes per pascal
+unit_M81,M81,square centimetre per second
+unit_M82,M82,square metre per second pascal
+unit_M83,M83,denier
+unit_M84,M84,pound per yard
+unit_M85,M85,"ton, assay"
+unit_M86,M86,pfund
+unit_M87,M87,kilogram per second pascal
+unit_M88,M88,tonne per month
+unit_M89,M89,tonne per year
+unit_M9,M9,million Btu per 1000 cubic foot
+unit_M90,M90,kilopound per hour
+unit_M91,M91,pound per pound
+unit_M92,M92,pound-force foot
+unit_M93,M93,newton metre per radian
+unit_M94,M94,kilogram metre
+unit_M95,M95,poundal foot
+unit_M96,M96,poundal inch
+unit_M97,M97,dyne metre
+unit_M98,M98,kilogram centimetre per second
+unit_M99,M99,gram centimetre per second
+unit_MAH,MAH,megavolt ampere reactive hour
+unit_MAL,MAL,megalitre
+unit_MAM,MAM,megametre
+unit_MAR,MAR,megavar
+unit_MAW,MAW,megawatt
+unit_MBE,MBE,thousand standard brick equivalent
+unit_MBF,MBF,thousand board foot
+unit_MBR,MBR,millibar
+unit_MC,MC,microgram
+unit_MCU,MCU,millicurie
+unit_MD,MD,air dry metric ton
+unit_MGM,MGM,milligram
+unit_MHZ,MHZ,megahertz
+unit_MIK,MIK,square mile (statute mile)
+unit_MIL,MIL,thousand
+unit_MIN,MIN,minute [unit of time]
+unit_MIO,MIO,million
+unit_MIU,MIU,million international unit
+unit_MKD,MKD,Square Metre Day
+unit_MKM,MKM,Square Metre Month
+unit_MKW,MKW,Square Metre Week
+unit_MLD,MLD,milliard
+unit_MLT,MLT,millilitre
+unit_MMK,MMK,square millimetre
+unit_MMQ,MMQ,cubic millimetre
+unit_MMT,MMT,millimetre
+unit_MND,MND,"kilogram, dry weight"
+unit_MNJ,MNJ,Mega Joule per Normalised cubic Metre
+unit_MON,MON,month
+unit_MPA,MPA,megapascal
+unit_MQD,MQD,Cubic Metre Day
+unit_MQH,MQH,cubic metre per hour
+unit_MQM,MQM,Cubic Metre Month
+unit_MQS,MQS,cubic metre per second
+unit_MQW,MQW,Cubic Metre Week
+unit_MRD,MRD,Metre Day
+unit_MRM,MRM,Metre Month
+unit_MRW,MRW,Metre Week
+unit_MSK,MSK,metre per second squared
+unit_MTK,MTK,square metre
+unit_MTQ,MTQ,cubic metre
+unit_MTR,MTR,metre
+unit_MTS,MTS,metre per second
+unit_MTZ,MTZ,milihertz
+unit_MVA,MVA,megavolt - ampere
+unit_MWH,MWH,megawatt hour (1000 kW.h)
+unit_N1,N1,pen calorie
+unit_N10,N10,pound foot per second
+unit_N11,N11,pound inch per second
+unit_N12,N12,Pferdestaerke
+unit_N13,N13,centimetre of mercury (0 ºC)
+unit_N14,N14,centimetre of water (4 ºC)
+unit_N15,N15,foot of water (39.2 ºF)
+unit_N16,N16,inch of mercury (32 ºF)
+unit_N17,N17,inch of mercury (60 ºF)
+unit_N18,N18,inch of water (39.2 ºF)
+unit_N19,N19,inch of water (60 ºF)
+unit_N20,N20,kip per square inch
+unit_N21,N21,poundal per square foot
+unit_N22,N22,ounce (avoirdupois) per square inch
+unit_N23,N23,conventional metre of water
+unit_N24,N24,gram per square millimetre
+unit_N25,N25,pound per square yard
+unit_N26,N26,poundal per square inch
+unit_N27,N27,foot to the fourth power
+unit_N28,N28,cubic decimetre per kilogram
+unit_N29,N29,cubic foot per pound
+unit_N3,N3,print point
+unit_N30,N30,cubic inch per pound
+unit_N31,N31,kilonewton per metre
+unit_N32,N32,poundal per inch
+unit_N33,N33,pound-force per yard
+unit_N34,N34,poundal second per square foot
+unit_N35,N35,poise per pascal
+unit_N36,N36,newton second per square metre
+unit_N37,N37,kilogram per metre second
+unit_N38,N38,kilogram per metre minute
+unit_N39,N39,kilogram per metre day
+unit_N40,N40,kilogram per metre hour
+unit_N41,N41,gram per centimetre second
+unit_N42,N42,poundal second per square inch
+unit_N43,N43,pound per foot minute
+unit_N44,N44,pound per foot day
+unit_N45,N45,cubic metre per second pascal
+unit_N46,N46,foot poundal
+unit_N47,N47,inch poundal
+unit_N48,N48,watt per square centimetre
+unit_N49,N49,watt per square inch
+unit_N50,N50,British thermal unit (international table) per square foot hour
+unit_N51,N51,British thermal unit (thermochemical) per square foot hour
+unit_N52,N52,British thermal unit (thermochemical) per square foot minute
+unit_N53,N53,British thermal unit (international table) per square foot second
+unit_N54,N54,British thermal unit (thermochemical) per square foot second
+unit_N55,N55,British thermal unit (international table) per square inch second
+unit_N56,N56,calorie (thermochemical) per square centimetre minute
+unit_N57,N57,calorie (thermochemical) per square centimetre second
+unit_N58,N58,British thermal unit (international table) per cubic foot
+unit_N59,N59,British thermal unit (thermochemical) per cubic foot
+unit_N60,N60,British thermal unit (international table) per degree Fahrenheit
+unit_N61,N61,British thermal unit (thermochemical) per degree Fahrenheit
+unit_N62,N62,British thermal unit (international table) per degree Rankine
+unit_N63,N63,British thermal unit (thermochemical) per degree Rankine
+unit_N64,N64,British thermal unit (thermochemical) per pound degree Rankine
+unit_N65,N65,kilocalorie (international table) per gram kelvin
+unit_N66,N66,British thermal unit (39 ºF)
+unit_N67,N67,British thermal unit (59 ºF)
+unit_N68,N68,British thermal unit (60 ºF)
+unit_N69,N69,calorie (20 ºC)
+unit_N70,N70,quad (1015 BtuIT)
+unit_N71,N71,therm (EC)
+unit_N72,N72,therm (U.S.)
+unit_N73,N73,British thermal unit (thermochemical) per pound
+unit_N74,N74,British thermal unit (international table) per hour square foot degree Fahrenheit
+unit_N75,N75,British thermal unit (thermochemical) per hour square foot degree Fahrenheit
+unit_N76,N76,British thermal unit (international table) per second square foot degree Fahrenheit
+unit_N77,N77,British thermal unit (thermochemical) per second square foot degree Fahrenheit
+unit_N78,N78,kilowatt per square metre kelvin
+unit_N79,N79,kelvin per pascal
+unit_N80,N80,watt per metre degree Celsius
+unit_N81,N81,kilowatt per metre kelvin
+unit_N82,N82,kilowatt per metre degree Celsius
+unit_N83,N83,metre per degree Celcius metre
+unit_N84,N84,degree Fahrenheit hour per British thermal unit (international table)
+unit_N85,N85,degree Fahrenheit hour per British thermal unit (thermochemical)
+unit_N86,N86,degree Fahrenheit second per British thermal unit (international table)
+unit_N87,N87,degree Fahrenheit second per British thermal unit (thermochemical)
+unit_N88,N88,degree Fahrenheit hour square foot per British thermal unit (international table) inch
+unit_N89,N89,degree Fahrenheit hour square foot per British thermal unit (thermochemical) inch
+unit_N90,N90,kilofarad
+unit_N91,N91,reciprocal joule
+unit_N92,N92,picosiemens
+unit_N93,N93,ampere per pascal
+unit_N94,N94,franklin
+unit_N95,N95,ampere minute
+unit_N96,N96,biot
+unit_N97,N97,gilbert
+unit_N98,N98,volt per pascal
+unit_N99,N99,picovolt
+unit_NA,NA,milligram per kilogram
+unit_NAR,NAR,number of articles
+unit_NCL,NCL,number of cells
+unit_NEW,NEW,newton
+unit_NF,NF,message
+unit_NIL,NIL,nil
+unit_NIU,NIU,number of international units
+unit_NL,NL,load
+unit_NM3,NM3,Normalised cubic metre
+unit_NMI,NMI,nautical mile
+unit_NMP,NMP,number of packs
+unit_NPT,NPT,number of parts
+unit_NT,NT,net ton
+unit_NTU,NTU,Nephelometric turbidity unit
+unit_NU,NU,newton metre
+unit_NX,NX,part per thousand
+unit_OA,OA,panel
+unit_ODE,ODE,ozone depletion equivalent
+unit_ODG,ODG,ODS Grams
+unit_ODK,ODK,ODS Kilograms
+unit_ODM,ODM,ODS Milligrams
+unit_OHM,OHM,ohm
+unit_ON,ON,ounce per square yard
+unit_ONZ,ONZ,ounce (avoirdupois)
+unit_OPM,OPM,oscillations per minute
+unit_OT,OT,overtime hour
+unit_OZA,OZA,fluid ounce (US)
+unit_OZI,OZI,fluid ounce (UK)
+unit_P1,P1,percent
+unit_P10,P10,coulomb per metre
+unit_P11,P11,kiloweber
+unit_P12,P12,gamma
+unit_P13,P13,kilotesla
+unit_P14,P14,joule per second
+unit_P15,P15,joule per minute
+unit_P16,P16,joule per hour
+unit_P17,P17,joule per day
+unit_P18,P18,kilojoule per second
+unit_P19,P19,kilojoule per minute
+unit_P2,P2,pound per foot
+unit_P20,P20,kilojoule per hour
+unit_P21,P21,kilojoule per day
+unit_P22,P22,nanoohm
+unit_P23,P23,ohm circular-mil per foot
+unit_P24,P24,kilohenry
+unit_P25,P25,lumen per square foot
+unit_P26,P26,phot
+unit_P27,P27,footcandle
+unit_P28,P28,candela per square inch
+unit_P29,P29,footlambert
+unit_P30,P30,lambert
+unit_P31,P31,stilb
+unit_P32,P32,candela per square foot
+unit_P33,P33,kilocandela
+unit_P34,P34,millicandela
+unit_P35,P35,Hefner-Kerze
+unit_P36,P36,international candle
+unit_P37,P37,British thermal unit (international table) per square foot
+unit_P38,P38,British thermal unit (thermochemical) per square foot
+unit_P39,P39,calorie (thermochemical) per square centimetre
+unit_P40,P40,langley
+unit_P41,P41,decade (logarithmic)
+unit_P42,P42,pascal squared second
+unit_P43,P43,bel per metre
+unit_P44,P44,pound mole
+unit_P45,P45,pound mole per second
+unit_P46,P46,pound mole per minute
+unit_P47,P47,kilomole per kilogram
+unit_P48,P48,pound mole per pound
+unit_P49,P49,newton square metre per ampere
+unit_P5,P5,five pack
+unit_P50,P50,weber metre
+unit_P51,P51,mol per kilogram pascal
+unit_P52,P52,mol per cubic metre pascal
+unit_P53,P53,unit pole
+unit_P54,P54,milligray per second
+unit_P55,P55,microgray per second
+unit_P56,P56,nanogray per second
+unit_P57,P57,gray per minute
+unit_P58,P58,milligray per minute
+unit_P59,P59,microgray per minute
+unit_P60,P60,nanogray per minute
+unit_P61,P61,gray per hour
+unit_P62,P62,milligray per hour
+unit_P63,P63,microgray per hour
+unit_P64,P64,nanogray per hour
+unit_P65,P65,sievert per second
+unit_P66,P66,millisievert per second
+unit_P67,P67,microsievert per second
+unit_P68,P68,nanosievert per second
+unit_P69,P69,rem per second
+unit_P70,P70,sievert per hour
+unit_P71,P71,millisievert per hour
+unit_P72,P72,microsievert per hour
+unit_P73,P73,nanosievert per hour
+unit_P74,P74,sievert per minute
+unit_P75,P75,millisievert per minute
+unit_P76,P76,microsievert per minute
+unit_P77,P77,nanosievert per minute
+unit_P78,P78,reciprocal square inch
+unit_P79,P79,pascal square metre per kilogram
+unit_P80,P80,millipascal per metre
+unit_P81,P81,kilopascal per metre
+unit_P82,P82,hectopascal per metre
+unit_P83,P83,standard atmosphere per metre
+unit_P84,P84,technical atmosphere per metre
+unit_P85,P85,torr per metre
+unit_P86,P86,psi per inch
+unit_P87,P87,cubic metre per second square metre
+unit_P88,P88,rhe
+unit_P89,P89,pound-force foot per inch
+unit_P90,P90,pound-force inch per inch
+unit_P91,P91,perm (0 ºC)
+unit_P92,P92,perm (23 ºC)
+unit_P93,P93,byte per second
+unit_P94,P94,kilobyte per second
+unit_P95,P95,megabyte per second
+unit_P96,P96,reciprocal volt
+unit_P97,P97,reciprocal radian
+unit_P98,P98,pascal to the power sum of stoichiometric numbers
+unit_P99,P99,mole per cubiv metre to the power sum of stoichiometric numbers
+unit_PAL,PAL,pascal
+unit_PD,PD,pad
+unit_PFL,PFL,proof litre
+unit_PGL,PGL,proof gallon
+unit_PI,PI,pitch
+unit_PLA,PLA,degree Plato
+unit_PO,PO,pound per inch of length
+unit_PQ,PQ,page per inch
+unit_PR,PR,pair
+unit_PS,PS,pound-force per square inch
+unit_PTD,PTD,dry pint (US)
+unit_PTI,PTI,pint (UK)
+unit_PTL,PTL,liquid pint (US)
+unit_PTN,PTN,portion
+unit_Q10,Q10,joule per tesla
+unit_Q11,Q11,erlang
+unit_Q12,Q12,octet
+unit_Q13,Q13,octet per second
+unit_Q14,Q14,shannon
+unit_Q15,Q15,hartley
+unit_Q16,Q16,natural unit of information
+unit_Q17,Q17,shannon per second
+unit_Q18,Q18,hartley per second
+unit_Q19,Q19,natural unit of information per second
+unit_Q20,Q20,second per kilogramm
+unit_Q21,Q21,watt square metre
+unit_Q22,Q22,second per radian cubic metre
+unit_Q23,Q23,weber to the power minus one
+unit_Q24,Q24,reciprocal inch
+unit_Q25,Q25,dioptre
+unit_Q26,Q26,one per one
+unit_Q27,Q27,newton metre per metre
+unit_Q28,Q28,kilogram per square metre pascal second
+unit_Q29,Q29,microgram per hectogram
+unit_Q30,Q30,pH (potential of Hydrogen)
+unit_Q31,Q31,kilojoule per gram
+unit_Q32,Q32,femtolitre
+unit_Q33,Q33,picolitre
+unit_Q34,Q34,nanolitre
+unit_Q35,Q35,megawatts per minute
+unit_Q36,Q36,square metre per cubic metre
+unit_Q37,Q37,Standard cubic metre per day
+unit_Q38,Q38,Standard cubic metre per hour
+unit_Q39,Q39,Normalized cubic metre per day
+unit_Q40,Q40,Normalized cubic metre per hour
+unit_Q41,Q41,Joule per normalised cubic metre
+unit_Q42,Q42,Joule per standard cubic metre
+unit_Q3,Q3,meal
+unit_QA,QA,page - facsimile
+unit_QAN,QAN,quarter (of a year)
+unit_QB,QB,page - hardcopy
+unit_QR,QR,quire
+unit_QTD,QTD,dry quart (US)
+unit_QTI,QTI,quart (UK)
+unit_QTL,QTL,liquid quart (US)
+unit_QTR,QTR,quarter (UK)
+unit_R1,R1,pica
+unit_R9,R9,thousand cubic metre
+unit_RH,RH,running or operating hour
+unit_RM,RM,ream
+unit_ROM,ROM,room
+unit_RP,RP,pound per ream
+unit_RPM,RPM,revolutions per minute
+unit_RPS,RPS,revolutions per second
+unit_RT,RT,revenue ton mile
+unit_S3,S3,square foot per second
+unit_S4,S4,square metre per second
+unit_SAN,SAN,half year (6 months)
+unit_SCO,SCO,score
+unit_SCR,SCR,scruple
+unit_SEC,SEC,second [unit of time]
+unit_SET,SET,set
+unit_SG,SG,segment
+unit_SIE,SIE,siemens
+unit_SM3,SM3,Standard cubic metre
+unit_SMI,SMI,mile (statute mile)
+unit_SQ,SQ,square
+unit_SQR,SQR,"square, roofing"
+unit_SR,SR,strip
+unit_STC,STC,stick
+unit_STI,STI,stone (UK)
+unit_STK,STK,"stick, cigarette"
+unit_STL,STL,standard litre
+unit_STN,STN,ton (US) or short ton (UK/US)
+unit_STW,STW,straw
+unit_SW,SW,skein
+unit_SX,SX,shipment
+unit_SYR,SYR,syringe
+unit_T0,T0,telecommunication line in service
+unit_T3,T3,thousand piece
+unit_TAH,TAH,kiloampere hour (thousand ampere hour)
+unit_TAN,TAN,total acid number
+unit_TI,TI,thousand square inch
+unit_TIC,TIC,"metric ton, including container"
+unit_TIP,TIP,"metric ton, including inner packaging"
+unit_TKM,TKM,tonne kilometre
+unit_TMS,TMS,"kilogram of imported meat, less offal"
+unit_TNE,TNE,tonne (metric ton)
+unit_TP,TP,ten pack
+unit_TPI,TPI,teeth per inch
+unit_TPR,TPR,ten pair
+unit_TQD,TQD,thousand cubic metre per day
+unit_TRL,TRL,trillion (EUR)
+unit_TST,TST,ten set
+unit_TTS,TTS,ten thousand sticks
+unit_U1,U1,treatment
+unit_U2,U2,tablet
+unit_UB,UB,telecommunication line in service average
+unit_UC,UC,telecommunication port
+unit_VA,VA,volt - ampere per kilogram
+unit_VLT,VLT,volt
+unit_VP,VP,percent volume
+unit_W2,W2,wet kilo
+unit_WA,WA,watt per kilogram
+unit_WB,WB,wet pound
+unit_WCD,WCD,cord
+unit_WE,WE,wet ton
+unit_WEB,WEB,weber
+unit_WEE,WEE,week
+unit_WG,WG,wine gallon
+unit_WHR,WHR,watt hour
+unit_WM,WM,working month
+unit_WSD,WSD,standard
+unit_WTT,WTT,watt
+unit_X1,X1,Gunter's chain
+unit_YDK,YDK,square yard
+unit_YDQ,YDQ,cubic yard
+unit_YRD,YRD,yard
+unit_Z11,Z11,hanging container
+unit_Z9,Z9,nanomole
+unit_ZP,ZP,page
+unit_ZZ,ZZ,mutually defined
+unit_X1A,X1A,"Drum, steel"
+unit_X1B,X1B,"Drum, aluminium"
+unit_X1D,X1D,"Drum, plywood"
+unit_X1F,X1F,"Container, flexible"
+unit_X1G,X1G,"Drum, fibre"
+unit_X1W,X1W,"Drum, wooden"
+unit_X2C,X2C,"Barrel, wooden"
+unit_X3A,X3A,"Jerrican, steel"
+unit_X3H,X3H,"Jerrican, plastic"
+unit_X43,X43,"Bag, super bulk"
+unit_X44,X44,"Bag, polybag"
+unit_X4A,X4A,"Box, steel"
+unit_X4B,X4B,"Box, aluminium"
+unit_X4C,X4C,"Box, natural wood"
+unit_X4D,X4D,"Box, plywood"
+unit_X4F,X4F,"Box, reconstituted wood"
+unit_X4G,X4G,"Box, fibreboard"
+unit_X4H,X4H,"Box, plastic"
+unit_X5H,X5H,"Bag, woven plastic"
+unit_X5L,X5L,"Bag, textile"
+unit_X5M,X5M,"Bag, paper"
+unit_X6H,X6H,"Composite packaging, plastic receptacle"
+unit_X6P,X6P,"Composite packaging, glass receptacle"
+unit_X7A,X7A,"Case, car"
+unit_X7B,X7B,"Case, wooden"
+unit_X8A,X8A,"Pallet, wooden"
+unit_X8B,X8B,"Crate, wooden"
+unit_X8C,X8C,"Bundle, wooden"
+unit_XAA,XAA,"Intermediate bulk container, rigid plastic"
+unit_XAB,XAB,"Receptacle, fibre"
+unit_XAC,XAC,"Receptacle, paper"
+unit_XAD,XAD,"Receptacle, wooden"
+unit_XAE,XAE,Aerosol
+unit_XAF,XAF,"Pallet, modular, collars 80cms * 60cms"
+unit_XAG,XAG,"Pallet, shrinkwrapped"
+unit_XAH,XAH,"Pallet, 100cms * 110cms"
+unit_XAI,XAI,Clamshell
+unit_XAJ,XAJ,Cone
+unit_XAL,XAL,Ball
+unit_XAM,XAM,"Ampoule, non-protected"
+unit_XAP,XAP,"Ampoule, protected"
+unit_XAT,XAT,Atomizer
+unit_XAV,XAV,Capsule
+unit_XB4,XB4,Belt
+unit_XBA,XBA,Barrel
+unit_XBB,XBB,Bobbin
+unit_XBC,XBC,Bottlecrate / bottlerack
+unit_XBD,XBD,Board
+unit_XBE,XBE,Bundle
+unit_XBF,XBF,"Balloon, non-protected"
+unit_XBG,XBG,Bag
+unit_XBH,XBH,Bunch
+unit_XBI,XBI,Bin
+unit_XBJ,XBJ,Bucket
+unit_XBK,XBK,Basket
+unit_XBL,XBL,"Bale, compressed"
+unit_XBM,XBM,Basin
+unit_XBN,XBN,"Bale, non-compressed"
+unit_XBO,XBO,"Bottle, non-protected, cylindrical"
+unit_XBP,XBP,"Balloon, protected"
+unit_XBQ,XBQ,"Bottle, protected cylindrical"
+unit_XBR,XBR,Bar
+unit_XBS,XBS,"Bottle, non-protected, bulbous"
+unit_XBT,XBT,Bolt
+unit_XBU,XBU,Butt
+unit_XBV,XBV,"Bottle, protected bulbous"
+unit_XBW,XBW,"Box, for liquids"
+unit_XBX,XBX,Box
+unit_XBY,XBY,"Board, in bundle/bunch/truss"
+unit_XBZ,XBZ,"Bars, in bundle/bunch/truss"
+unit_XCA,XCA,"Can, rectangular"
+unit_XCB,XCB,"Crate, beer"
+unit_XCC,XCC,Churn
+unit_XCD,XCD,"Can, with handle and spout"
+unit_XCE,XCE,Creel
+unit_XCF,XCF,Coffer
+unit_XCG,XCG,Cage
+unit_XCH,XCH,Chest
+unit_XCI,XCI,Canister
+unit_XCJ,XCJ,Coffin
+unit_XCK,XCK,Cask
+unit_XCL,XCL,Coil
+unit_XCM,XCM,Card
+unit_XCN,XCN,"Container, not otherwise specified as transport equipment"
+unit_XCO,XCO,"Carboy, non-protected"
+unit_XCP,XCP,"Carboy, protected"
+unit_XCQ,XCQ,Cartridge
+unit_XCR,XCR,Crate
+unit_XCS,XCS,Case
+unit_XCT,XCT,Carton
+unit_XCU,XCU,Cup
+unit_XCV,XCV,Cover
+unit_XCW,XCW,"Cage, roll"
+unit_XCX,XCX,"Can, cylindrical"
+unit_XCY,XCY,Cylinder
+unit_XCZ,XCZ,Canvas
+unit_XDA,XDA,"Crate, multiple layer, plastic"
+unit_XDB,XDB,"Crate, multiple layer, wooden"
+unit_XDC,XDC,"Crate, multiple layer, cardboard"
+unit_XDG,XDG,"Cage, Commonwealth Handling Equipment Pool (CHEP)"
+unit_XDH,XDH,"Box, Commonwealth Handling Equipment Pool (CHEP), Eurobox"
+unit_XDI,XDI,"Drum, iron"
+unit_XDJ,XDJ,"Demijohn, non-protected"
+unit_XDK,XDK,"Crate, bulk, cardboard"
+unit_XDL,XDL,"Crate, bulk, plastic"
+unit_XDM,XDM,"Crate, bulk, wooden"
+unit_XDN,XDN,Dispenser
+unit_XDP,XDP,"Demijohn, protected"
+unit_XDR,XDR,Drum
+unit_XDS,XDS,"Tray, one layer no cover, plastic"
+unit_XDT,XDT,"Tray, one layer no cover, wooden"
+unit_XDU,XDU,"Tray, one layer no cover, polystyrene"
+unit_XDV,XDV,"Tray, one layer no cover, cardboard"
+unit_XDW,XDW,"Tray, two layers no cover, plastic tray"
+unit_XDX,XDX,"Tray, two layers no cover, wooden"
+unit_XDY,XDY,"Tray, two layers no cover, cardboard"
+unit_XEC,XEC,"Bag, plastic"
+unit_XED,XED,"Case, with pallet base"
+unit_XEE,XEE,"Case, with pallet base, wooden"
+unit_XEF,XEF,"Case, with pallet base, cardboard"
+unit_XEG,XEG,"Case, with pallet base, plastic"
+unit_XEH,XEH,"Case, with pallet base, metal"
+unit_XEI,XEI,"Case, isothermic"
+unit_XEN,XEN,Envelope
+unit_XFB,XFB,Flexibag
+unit_XFC,XFC,"Crate, fruit"
+unit_XFD,XFD,"Crate, framed"
+unit_XFE,XFE,Flexitank
+unit_XFI,XFI,Firkin
+unit_XFL,XFL,Flask
+unit_XFO,XFO,Footlocker
+unit_XFP,XFP,Filmpack
+unit_XFR,XFR,Frame
+unit_XFT,XFT,Foodtainer
+unit_XFW,XFW,"Cart, flatbed"
+unit_XFX,XFX,"Bag, flexible container"
+unit_XGB,XGB,"Bottle, gas"
+unit_XGI,XGI,Girder
+unit_XGL,XGL,"Container, gallon"
+unit_XGR,XGR,"Receptacle, glass"
+unit_XGU,XGU,"Tray, containing horizontally stacked flat items"
+unit_XGY,XGY,"Bag, gunny"
+unit_XGZ,XGZ,"Girders, in bundle/bunch/truss"
+unit_XHA,XHA,"Basket, with handle, plastic"
+unit_XHB,XHB,"Basket, with handle, wooden"
+unit_XHC,XHC,"Basket, with handle, cardboard"
+unit_XHG,XHG,Hogshead
+unit_XHN,XHN,Hanger
+unit_XHR,XHR,Hamper
+unit_XIA,XIA,"Package, display, wooden"
+unit_XIB,XIB,"Package, display, cardboard"
+unit_XIC,XIC,"Package, display, plastic"
+unit_XID,XID,"Package, display, metal"
+unit_XIE,XIE,"Package, show"
+unit_XIF,XIF,"Package, flow"
+unit_XIG,XIG,"Package, paper wrapped"
+unit_XIH,XIH,"Drum, plastic"
+unit_XIK,XIK,"Package, cardboard, with bottle grip-holes"
+unit_XIL,XIL,"Tray, rigid, lidded stackable (CEN TS 14482:2002)"
+unit_XIN,XIN,Ingot
+unit_XIZ,XIZ,"Ingots, in bundle/bunch/truss"
+unit_XJB,XJB,"Bag, jumbo"
+unit_XJC,XJC,"Jerrican, rectangular"
+unit_XJG,XJG,Jug
+unit_XJR,XJR,Jar
+unit_XJT,XJT,Jutebag
+unit_XJY,XJY,"Jerrican, cylindrical"
+unit_XKG,XKG,Keg
+unit_XKI,XKI,Kit
+unit_XLE,XLE,Luggage
+unit_XLG,XLG,Log
+unit_XLT,XLT,Lot
+unit_XLU,XLU,Lug
+unit_XLV,XLV,Liftvan
+unit_XLZ,XLZ,"Logs, in bundle/bunch/truss"
+unit_XMA,XMA,"Crate, metal"
+unit_XMB,XMB,"Bag, multiply"
+unit_XMC,XMC,"Crate, milk"
+unit_XME,XME,"Container, metal"
+unit_XMR,XMR,"Receptacle, metal"
+unit_XMS,XMS,"Sack, multi-wall"
+unit_XMT,XMT,Mat
+unit_XMW,XMW,"Receptacle, plastic wrapped"
+unit_XMX,XMX,Matchbox
+unit_XNA,XNA,Not available
+unit_XNE,XNE,Unpacked or unpackaged
+unit_XNF,XNF,"Unpacked or unpackaged, single unit"
+unit_XNG,XNG,"Unpacked or unpackaged, multiple units"
+unit_XNS,XNS,Nest
+unit_XNT,XNT,Net
+unit_XNU,XNU,"Net, tube, plastic"
+unit_XNV,XNV,"Net, tube, textile"
+unit_XO1,XO1,Two sided cage on wheels with fixing strap
+unit_XO2,XO2,Trolley
+unit_XO3,XO3,Oneway pallet ISO 0 - 1/2 EURO Pallet
+unit_XO4,XO4,Oneway pallet ISO 1 - 1/1 EURO Pallet
+unit_XO5,XO5,Oneway pallet ISO 2 - 2/1 EURO Pallet
+unit_XO6,XO6,Pallet with exceptional dimensions
+unit_XO7,XO7,Wooden pallet 40 cm x 80 cm
+unit_XO8,XO8,Plastic pallet SRS 60 cm x 80 cm
+unit_XO9,XO9,Plastic pallet SRS 80 cm x 120 cm
+unit_XOA,XOA,"Pallet, CHEP 40 cm x 60 cm"
+unit_XOB,XOB,"Pallet, CHEP 80 cm x 120 cm"
+unit_XOC,XOC,"Pallet, CHEP 100 cm x 120 cm"
+unit_XOD,XOD,"Pallet, AS 4068-1993"
+unit_XOE,XOE,"Pallet, ISO T11"
+unit_XOF,XOF,"Platform, unspecified weight or dimension"
+unit_XOG,XOG,Pallet ISO 0 - 1/2 EURO Pallet
+unit_XOH,XOH,Pallet ISO 1 - 1/1 EURO Pallet
+unit_XOI,XOI,Pallet ISO 2 – 2/1 EURO Pallet
+unit_XOK,XOK,Block
+unit_XOJ,XOJ,1/4 EURO Pallet
+unit_XOL,XOL,1/8 EURO Pallet
+unit_XOM,XOM,Synthetic pallet ISO 1
+unit_XON,XON,Synthetic pallet ISO 2
+unit_XOP,XOP,Wholesaler pallet
+unit_XOQ,XOQ,Pallet 80 X 100 cm
+unit_XOR,XOR,Pallet 60 X 100 cm
+unit_XOS,XOS,Oneway pallet
+unit_XOV,XOV,Returnable pallet
+unit_XOW,XOW,"Large bag, pallet sized"
+unit_XOT,XOT,Octabin
+unit_XOU,XOU,"Container, outer"
+unit_XOX,XOX,A wheeled pallet with raised rim (81 x 67 x 135)
+unit_XOY,XOY,A Wheeled pallet with raised rim (81 x 72 x 135)
+unit_XOZ,XOZ,Wheeled pallet with raised rim ( 81 x 60 x 16)
+unit_XP1,XP1,CHEP pallet 60 cm x 80 cm
+unit_XP2,XP2,Pan
+unit_XP3,XP3,LPR pallet 60 cm x 80 cm
+unit_XP4,XP4,LPR pallet 80 cm x 120 cm
+unit_XPA,XPA,Packet
+unit_XPB,XPB,"Pallet, box Combined open-ended box and pallet"
+unit_XPC,XPC,Parcel
+unit_XPD,XPD,"Pallet, modular, collars 80cms * 100cms"
+unit_XPE,XPE,"Pallet, modular, collars 80cms * 120cms"
+unit_XPF,XPF,Pen
+unit_XPG,XPG,Plate
+unit_XPH,XPH,Pitcher
+unit_XPI,XPI,Pipe
+unit_XPJ,XPJ,Punnet
+unit_XPK,XPK,Package
+unit_XPL,XPL,Pail
+unit_XPN,XPN,Plank
+unit_XPO,XPO,Pouch
+unit_XPP,XPP,Piece
+unit_XPR,XPR,"Receptacle, plastic"
+unit_XPT,XPT,Pot
+unit_XPU,XPU,Tray
+unit_XPV,XPV,"Pipes, in bundle/bunch/truss"
+unit_XPX,XPX,Pallet
+unit_XPY,XPY,"Plates, in bundle/bunch/truss"
+unit_XPZ,XPZ,"Planks, in bundle/bunch/truss"
+unit_XQA,XQA,"Drum, steel, non-removable head"
+unit_XQB,XQB,"Drum, steel, removable head"
+unit_XQC,XQC,"Drum, aluminium, non-removable head"
+unit_XQD,XQD,"Drum, aluminium, removable head"
+unit_XQF,XQF,"Drum, plastic, non-removable head"
+unit_XQG,XQG,"Drum, plastic, removable head"
+unit_XQH,XQH,"Barrel, wooden, bung type"
+unit_XQJ,XQJ,"Barrel, wooden, removable head"
+unit_XQK,XQK,"Jerrican, steel, non-removable head"
+unit_XQL,XQL,"Jerrican, steel, removable head"
+unit_XQM,XQM,"Jerrican, plastic, non-removable head"
+unit_XQN,XQN,"Jerrican, plastic, removable head"
+unit_XQP,XQP,"Box, wooden, natural wood, ordinary"
+unit_XQQ,XQQ,"Box, wooden, natural wood, with sift proof walls"
+unit_XQR,XQR,"Box, plastic, expanded"
+unit_XQS,XQS,"Box, plastic, solid"
+unit_XRD,XRD,Rod
+unit_XRG,XRG,Ring
+unit_XRJ,XRJ,"Rack, clothing hanger"
+unit_XRK,XRK,Rack
+unit_XRL,XRL,Reel
+unit_XRO,XRO,Roll
+unit_XRT,XRT,Rednet
+unit_XRZ,XRZ,"Rods, in bundle/bunch/truss"
+unit_XSA,XSA,Sack
+unit_XSB,XSB,Slab
+unit_XSC,XSC,"Crate, shallow"
+unit_XSD,XSD,Spindle
+unit_XSE,XSE,Sea-chest
+unit_XSH,XSH,Sachet
+unit_XSI,XSI,Skid
+unit_XSK,XSK,"Case, skeleton"
+unit_XSL,XSL,Slipsheet
+unit_XSM,XSM,Sheetmetal
+unit_XSO,XSO,Spool
+unit_XSP,XSP,"Sheet, plastic wrapping"
+unit_XSS,XSS,"Case, steel"
+unit_XST,XST,Sheet
+unit_XSU,XSU,Suitcase
+unit_XSV,XSV,"Envelope, steel"
+unit_XSW,XSW,Shrinkwrapped
+unit_XSX,XSX,Set
+unit_XSY,XSY,Sleeve
+unit_XSZ,XSZ,"Sheets, in bundle/bunch/truss"
+unit_XT1,XT1,Tablet
+unit_XTB,XTB,Tub
+unit_XTC,XTC,Tea-chest
+unit_XTD,XTD,"Tube, collapsible"
+unit_XTE,XTE,Tyre
+unit_XTG,XTG,"Tank container, generic"
+unit_XTI,XTI,Tierce
+unit_XTK,XTK,"Tank, rectangular"
+unit_XTL,XTL,"Tub, with lid"
+unit_XTN,XTN,Tin
+unit_XTO,XTO,Tun
+unit_XTR,XTR,Trunk
+unit_XTS,XTS,Truss
+unit_XTT,XTT,"Bag, tote"
+unit_XTU,XTU,Tube
+unit_XTV,XTV,"Tube, with nozzle"
+unit_XTW,XTW,"Pallet, triwall"
+unit_XTY,XTY,"Tank, cylindrical"
+unit_XTZ,XTZ,"Tubes, in bundle/bunch/truss"
+unit_XUC,XUC,Uncaged
+unit_XUN,XUN,Unit
+unit_XVA,XVA,Vat
+unit_XVG,XVG,"Bulk, gas (at 1031 mbar and 15°C)"
+unit_XVI,XVI,Vial
+unit_XVK,XVK,Vanpack
+unit_XVL,XVL,"Bulk, liquid"
+unit_XVO,XVO,"Bulk, solid, large particles (“nodules”)"
+unit_XVP,XVP,Vacuum-packed
+unit_XVQ,XVQ,"Bulk, liquefied gas (at abnormal temperature/pressure)"
+unit_XVN,XVN,Vehicle
+unit_XVR,XVR,"Bulk, solid, granular particles (“grains”)"
+unit_XVS,XVS,"Bulk, scrap metal"
+unit_XVY,XVY,"Bulk, solid, fine particles (“powders”)"
+unit_XWA,XWA,Intermediate bulk container
+unit_XWB,XWB,Wickerbottle
+unit_XWC,XWC,"Intermediate bulk container, steel"
+unit_XWD,XWD,"Intermediate bulk container, aluminium"
+unit_XWF,XWF,"Intermediate bulk container, metal"
+unit_XWG,XWG,"Intermediate bulk container, steel, pressurised > 10 kpa"
+unit_XWH,XWH,"Intermediate bulk container, aluminium, pressurised > 10 kpa"
+unit_XWJ,XWJ,"Intermediate bulk container, metal, pressure 10 kpa"
+unit_XWK,XWK,"Intermediate bulk container, steel, liquid"
+unit_XWL,XWL,"Intermediate bulk container, aluminium, liquid"
+unit_XWM,XWM,"Intermediate bulk container, metal, liquid"
+unit_XWN,XWN,"Intermediate bulk container, woven plastic, without coat/liner"
+unit_XWP,XWP,"Intermediate bulk container, woven plastic, coated"
+unit_XWQ,XWQ,"Intermediate bulk container, woven plastic, with liner"
+unit_XWR,XWR,"Intermediate bulk container, woven plastic, coated and liner"
+unit_XWS,XWS,"Intermediate bulk container, plastic film"
+unit_XWT,XWT,"Intermediate bulk container, textile with out coat/liner"
+unit_XWU,XWU,"Intermediate bulk container, natural wood, with inner liner"
+unit_XWV,XWV,"Intermediate bulk container, textile, coated"
+unit_XWW,XWW,"Intermediate bulk container, textile, with liner"
+unit_XWX,XWX,"Intermediate bulk container, textile, coated and liner"
+unit_XWY,XWY,"Intermediate bulk container, plywood, with inner liner"
+unit_XWZ,XWZ,"Intermediate bulk container, reconstituted wood, with inner liner"
+unit_XXA,XXA,"Bag, woven plastic, without inner coat/liner"
+unit_XXB,XXB,"Bag, woven plastic, sift proof"
+unit_XXC,XXC,"Bag, woven plastic, water resistant"
+unit_XXD,XXD,"Bag, plastics film"
+unit_XXF,XXF,"Bag, textile, without inner coat/liner"
+unit_XXG,XXG,"Bag, textile, sift proof"
+unit_XXH,XXH,"Bag, textile, water resistant"
+unit_XXJ,XXJ,"Bag, paper, multi-wall"
+unit_XXK,XXK,"Bag, paper, multi-wall, water resistant"
+unit_XYA,XYA,"Composite packaging, plastic receptacle in steel drum"
+unit_XYB,XYB,"Composite packaging, plastic receptacle in steel crate box"
+unit_XYC,XYC,"Composite packaging, plastic receptacle in aluminium drum"
+unit_XYD,XYD,"Composite packaging, plastic receptacle in aluminium crate"
+unit_XYF,XYF,"Composite packaging, plastic receptacle in wooden box"
+unit_XYG,XYG,"Composite packaging, plastic receptacle in plywood drum"
+unit_XYH,XYH,"Composite packaging, plastic receptacle in plywood box"
+unit_XYJ,XYJ,"Composite packaging, plastic receptacle in fibre drum"
+unit_XYK,XYK,"Composite packaging, plastic receptacle in fibreboard box"
+unit_XYL,XYL,"Composite packaging, plastic receptacle in plastic drum"
+unit_XYM,XYM,"Composite packaging, plastic receptacle in solid plastic box"
+unit_XYN,XYN,"Composite packaging, glass receptacle in steel drum"
+unit_XYP,XYP,"Composite packaging, glass receptacle in steel crate box"
+unit_XYQ,XYQ,"Composite packaging, glass receptacle in aluminium drum"
+unit_XYR,XYR,"Composite packaging, glass receptacle in aluminium crate"
+unit_XYS,XYS,"Composite packaging, glass receptacle in wooden box"
+unit_XYT,XYT,"Composite packaging, glass receptacle in plywood drum"
+unit_XYV,XYV,"Composite packaging, glass receptacle in wickerwork hamper"
+unit_XYW,XYW,"Composite packaging, glass receptacle in fibre drum"
+unit_XYX,XYX,"Composite packaging, glass receptacle in fibreboard box"
+unit_XYY,XYY,"Composite packaging, glass receptacle in expandable plastic pack"
+unit_XYZ,XYZ,"Composite packaging, glass receptacle in solid plastic pack"
+unit_XZA,XZA,"Intermediate bulk container, paper, multi-wall"
+unit_XZB,XZB,"Bag, large"
+unit_XZC,XZC,"Intermediate bulk container, paper, multi-wall, water resistant"
+unit_XZD,XZD,"Intermediate bulk container, rigid plastic, with structural equipment, solids"
+unit_XZF,XZF,"Intermediate bulk container, rigid plastic, freestanding, solids"
+unit_XZG,XZG,"Intermediate bulk container, rigid plastic, with structural equipment, pressurised"
+unit_XZH,XZH,"Intermediate bulk container, rigid plastic, freestanding, pressurised"
+unit_XZJ,XZJ,"Intermediate bulk container, rigid plastic, with structural equipment, liquids"
+unit_XZK,XZK,"Intermediate bulk container, rigid plastic, freestanding, liquids"
+unit_XZL,XZL,"Intermediate bulk container, composite, rigid plastic, solids"
+unit_XZM,XZM,"Intermediate bulk container, composite, flexible plastic, solids"
+unit_XZN,XZN,"Intermediate bulk container, composite, rigid plastic, pressurised"
+unit_XZP,XZP,"Intermediate bulk container, composite, flexible plastic, pressurised"
+unit_XZQ,XZQ,"Intermediate bulk container, composite, rigid plastic, liquids"
+unit_XZR,XZR,"Intermediate bulk container, composite, flexible plastic, liquids"
+unit_XZS,XZS,"Intermediate bulk container, composite"
+unit_XZT,XZT,"Intermediate bulk container, fibreboard"
+unit_XZU,XZU,"Intermediate bulk container, flexible"
+unit_XZV,XZV,"Intermediate bulk container, metal, other than steel"
+unit_XZW,XZW,"Intermediate bulk container, natural wood"
+unit_XZX,XZX,"Intermediate bulk container, plywood"
+unit_XZY,XZY,"Intermediate bulk container, reconstituted wood"
+unit_XZZ,XZZ,Mutually defined

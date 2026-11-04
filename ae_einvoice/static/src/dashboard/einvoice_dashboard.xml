@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="ae_einvoice.Dashboard">
+        <div class="o_einvoice_dashboard overflow-auto h-100 p-3 p-md-4">
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4">
+                <h2 class="m-0">E-Invoice Dashboard</h2>
+                <select class="form-select w-auto" t-on-change="onPeriodChange" aria-label="Period">
+                    <t t-foreach="periods" t-as="p" t-key="p[0]">
+                        <option t-att-value="p[0]" t-att-selected="p[0] === state.period" t-out="p[1]"/>
+                    </t>
+                </select>
+            </div>
+
+            <t t-foreach="sections" t-as="section" t-key="section.side">
+                <section class="mb-5">
+                    <div class="d-flex align-items-baseline justify-content-between flex-wrap gap-2 mb-3">
+                        <h4 class="m-0" t-out="section.title"/>
+                        <span class="text-muted">
+                            Acceptance rate: <strong t-out="rateLabel(section.rate)"/>
+                            <span t-if="section.note" class="ms-3" t-out="section.note"/>
+                        </span>
+                    </div>
+
+                    <div class="row g-3 mb-3">
+                        <t t-foreach="section.cards" t-as="card" t-key="card.key">
+                            <div class="col-6 col-md-4 col-xl">
+                                <div class="o_einvoice_card card h-100 border-start border-4 cursor-pointer"
+                                     t-attf-class="border-#{card.variant}"
+                                     role="button" tabindex="0"
+                                     t-on-click="() => this.open(section.side, card.key)"
+                                     t-on-keydown="(ev) => this.onCardKeydown(ev, section.side, card.key)">
+                                    <div class="card-body">
+                                        <div class="o_einvoice_value" t-out="card.value"/>
+                                        <div class="text-muted" t-out="card.label"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+
+                    <t t-if="section.barTotal">
+                        <div class="progress mb-1" style="height: 14px;" role="img"
+                             aria-label="Share of accepted, pending and rejected">
+                            <t t-foreach="section.bar" t-as="seg" t-key="seg.label">
+                                <div t-attf-class="progress-bar bg-#{seg.variant}"
+                                     t-att-style="'width: ' + pct(seg.value, section.barTotal) + '%'"
+                                     t-att-title="seg.label + ': ' + seg.value"/>
+                            </t>
+                        </div>
+                        <div class="small text-muted mb-3">
+                            <t t-foreach="section.bar" t-as="seg" t-key="seg.label">
+                                <span class="me-3">
+                                    <span t-attf-class="badge rounded-pill bg-#{seg.variant} me-1">&#160;</span>
+                                    <t t-out="seg.label"/>: <t t-out="seg.value"/>
+                                </span>
+                            </t>
+                        </div>
+                    </t>
+                    <div t-else="" class="text-muted mb-3">Nothing in this period yet.</div>
+
+                    <div class="row g-3" t-if="section.extras.length">
+                        <t t-foreach="section.extras" t-as="extra" t-key="extra.prefix">
+                            <div class="col-12 col-lg-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="fw-bold mb-2" t-out="extra.title"/>
+                                        <div class="d-flex gap-4">
+                                            <a href="#" class="text-warning-emphasis text-decoration-none"
+                                               t-on-click.prevent="() => this.open(section.side, extra.prefix + '_pending')">
+                                                Pending <strong t-out="extra.counts.pending"/>
+                                            </a>
+                                            <a href="#" class="text-success text-decoration-none"
+                                               t-on-click.prevent="() => this.open(section.side, extra.prefix + '_accepted')">
+                                                Accepted <strong t-out="extra.counts.accepted"/>
+                                            </a>
+                                            <a href="#" class="text-danger text-decoration-none"
+                                               t-on-click.prevent="() => this.open(section.side, extra.prefix + '_rejected')">
+                                                Rejected <strong t-out="extra.counts.rejected"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                </section>
+            </t>
+        </div>
+    </t>
+</templates>

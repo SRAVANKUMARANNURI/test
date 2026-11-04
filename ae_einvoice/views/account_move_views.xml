@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_invoice_tree_einvoice_selected" model="ir.ui.view">
+        <field name="name">account.move.list.einvoice.selected</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_invoice_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='invoice_date']" position="before">
+                <field name="einvoice_selected" optional="show" string="Sent to E-Invoice"/>
+            </xpath>
+        </field>
+    </record>
+
+
+    <record id="view_move_form_einvoice" model="ir.ui.view">
+        <field name="name">account.move.form.einvoice</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+
+
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_einvoice_view_logs"
+                        type="object"
+                        class="oe_stat_button"
+                        icon="fa-list-alt"
+                        invisible="move_type not in ('out_invoice', 'out_refund') or not context.get('show_einvoice_tab')">
+                    <field name="einvoice_log_count" widget="statinfo" string="E-Invoice Logs"/>
+                </button>
+            </xpath>
+
+
+
+
+            <xpath expr="//div[hasclass('oe_button_box')]/.." position="before">
+                <field name="einvoice_status" invisible="1"/>
+                <field name="einvoice_peppol_mls_status" invisible="1"/>
+            </xpath>
+
+            <xpath expr="//button[@name='button_draft']" position="attributes">
+                <attribute name="invisible">not show_reset_to_draft_button or einvoice_status == 'generated' or einvoice_status == 'submitted'</attribute>
+            </xpath>
+
+
+            <xpath expr="//notebook/page[1]" position="before">
+                <page string="E-Invoice"
+                      name="einvoice"
+                      invisible="move_type not in ('out_invoice', 'out_refund') or not context.get('show_einvoice_tab')">
+                    <group>
+                        <group string="Status">
+                            <field name="einvoice_status" widget="badge"
+                                   decoration-info="einvoice_status == 'draft'"
+                                   decoration-warning="einvoice_status == 'submitted'"
+                                   decoration-success="einvoice_status == 'generated'"
+                                   decoration-danger="einvoice_status == 'rejected'"/>
+                            <field name="einv_document_uuid" invisible="not einv_document_uuid"/>
+                            <field name="einvoice_reference" />
+                            <field name="einvoice_date_added"/>
+                            <field name="einvoice_peppol_status" widget="badge"
+                                   decoration-info="einvoice_peppol_status == 'draft'"
+                                   decoration-warning="einvoice_peppol_status == 'pending'"
+                                   decoration-success="einvoice_peppol_status == 'accepted'"
+                                   decoration-danger="einvoice_peppol_status == 'rejected'"/>
+                            <field name="einvoice_peppol_mls_status" widget="badge"
+                                   decoration-info="einvoice_peppol_mls_status == 'draft'"
+                                   decoration-warning="einvoice_peppol_mls_status == 'pending'"
+                                   decoration-success="einvoice_peppol_mls_status == 'accepted'"
+                                   decoration-danger="einvoice_peppol_mls_status == 'rejected'"/>
+                            <field name="einvoice_tax_authority_mls_status" widget="badge"
+                                   decoration-info="einvoice_tax_authority_mls_status == 'draft'"
+                                   decoration-warning="einvoice_tax_authority_mls_status == 'pending'"
+                                   decoration-success="einvoice_tax_authority_mls_status == 'accepted'"
+                                   decoration-danger="einvoice_tax_authority_mls_status == 'rejected'"/>
+
+                        </group>
+                        <group string="Actions">
+                            <button name="action_einvoice_view_json"
+                                    type="object"
+                                    string="View JSON"
+                                    class="btn-secondary"/>
+                            <button name="action_einvoice_submit"
+                                    type="object"
+                                    string="Submit"
+                                    class="btn-primary"
+                                    invisible="einvoice_status not in ('draft', 'rejected')"/>
+
+                            <button name="action_einvoice_check_status"
+                                    type="object"
+                                    string="Check Status"
+                                    class="btn-primary"
+                                    invisible="einvoice_status not in ('submitted', 'generated') or (einvoice_status == 'generated' and einvoice_peppol_status == 'accepted' and einvoice_peppol_mls_status == 'accepted' and einvoice_tax_authority_mls_status == 'accepted')"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="JSON Payload">
+                            <field name="einvoice_json_payload" class="o_field_text"/>
+                        </page>
+                        <page string="Submit Response">
+                            <field name="einvoice_submit_response"  class="o_field_text"/>
+                        </page>
+                        <page string="Status Check Response">
+                            <field name="einvoice_status_response" class="o_field_text"/>
+                        </page>
+                    </notebook>
+                </page>
+            </xpath>
+
+            <xpath expr="//page[@name='einvoice']" position="after">
+                <page string="E-Invoice Static Values"
+                      name="einvoice_static"
+                      invisible="move_type not in ('out_invoice', 'out_refund') or not context.get('show_einvoice_tab')">
+                    <group>
+                        <field name="einv_transaction_type_code"
+                               readonly="einvoice_status in ('submitted', 'generated')"/>
+                        <field name="einv_document_type"
+       readonly="einvoice_status in ('submitted', 'generated')"/>
+                        <field name="einv_document_type_purpose"
+       readonly="einvoice_status in ('submitted', 'generated')"/>
+                        <field name="einv_agency_id"
+       readonly="einvoice_status in ('submitted', 'generated')"/>
+                        <field name="einv_payment_mode"
+       readonly="einvoice_status in ('submitted', 'generated')"/>
+                        <field name="einv_tax_category"
+       readonly="einvoice_status in ('submitted', 'generated')"/>
+                        <field name="einv_unit_code_id"
+       readonly="einvoice_status in ('submitted', 'generated')"
+       options="{'no_create': True, 'no_open': True}"/>
+                        <field name="einv_allowance_reason" readonly="einvoice_status in ('submitted', 'generated')"/>
+                    </group>
+                </page>
+            </xpath>
+
+            <xpath expr="//page[@name='einvoice_static']" position="after">
+    <page string="E-Invoice Attachments"
+          name="einvoice_attachments"
+          invisible="move_type not in ('out_invoice', 'out_refund') or not context.get('show_einvoice_tab')">
+        <field name="einv_attachment_ids"
+               readonly="einvoice_status in ('submitted', 'generated')">
+            <list editable="bottom">
+                <field name="description"/>
+                <field name="reference_number"/>
+                <field name="file" filename="file_name"/>
+                <field name="file_name" column_invisible="1"/>
+            </list>
+        </field>
+    </page>
+</xpath>
+        </field>
+    </record>
+
+
+    <record id="view_einvoice_ar_list" model="ir.ui.view">
+        <field name="name">account.move.list.einvoice.ar</field>
+        <field name="model">account.move</field>
+        <field name="arch" type="xml">
+            <list string="AR E-Invoices" create="false" delete="false">
+                <header>
+                    <button name="action_einvoice_submit_bulk"
+                            type="object"
+                            string="Submit Selected"
+                            class="btn-primary"
+                            confirm="Submit the selected invoice(s) to E-Invoice?"/>
+                    <button name="action_einvoice_bulk_status_check"
+                            type="object"
+                            string="Check Status"
+                            class="btn-primary"
+                            confirm="Want to check the status of selected invoice(s)?"/>
+                    <button name="action_remove_from_einvoice"
+                            type="object"
+                            string="Remove from E-Invoice"
+                            confirm="Remove the selected invoice(s) from the E-Invoice AR list?"/>
+                </header>
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="invoice_date"/>
+                <field name="einvoice_date_added" optional="show"/>
+                <field name="amount_total" optional="show"/>
+                <field name="einvoice_status" widget="badge"
+                       decoration-info="einvoice_status == 'draft'"
+                       decoration-warning="einvoice_status == 'submitted'"
+                       decoration-success="einvoice_status == 'accepted'"
+                       decoration-danger="einvoice_status == 'rejected'"/>
+                <field name="einvoice_peppol_status" widget="badge"
+                                   decoration-info="einvoice_peppol_status == 'draft'"
+                                   decoration-warning="einvoice_peppol_status == 'pending'"
+                                   decoration-success="einvoice_peppol_status == 'accepted'"
+                                   decoration-danger="einvoice_peppol_status == 'rejected'"/>
+                            <field name="einvoice_peppol_mls_status" widget="badge"
+                                   decoration-info="einvoice_peppol_mls_status == 'draft'"
+                                   decoration-warning="einvoice_peppol_mls_status == 'pending'"
+                                   decoration-success="einvoice_peppol_mls_status == 'accepted'"
+                                   decoration-danger="einvoice_peppol_mls_status == 'rejected'"/>
+                            <field name="einvoice_tax_authority_mls_status" widget="badge"
+       decoration-info="einvoice_tax_authority_mls_status == 'draft'"
+       decoration-warning="einvoice_tax_authority_mls_status == 'pending'"
+       decoration-success="einvoice_tax_authority_mls_status == 'accepted'"
+       decoration-danger="einvoice_tax_authority_mls_status == 'rejected'"/>
+                <field name="einvoice_reference"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_move_form_einvoice_ar" model="ir.ui.view">
+        <field name="name">account.move.form.einvoice.ar</field>
+        <field name="model">account.move</field>
+        <field name="mode">primary</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form[1]" position="attributes">
+                <attribute name="create">false</attribute>
+            </xpath>
+        </field>
+    </record>
+
+
+    <record id="action_einvoice_ar" model="ir.actions.act_window">
+        <field name="name">AR E-Invoices</field>
+        <field name="res_model">account.move</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('move_type', 'in', ('out_invoice', 'out_refund')), ('einvoice_selected', '=', True)]</field>
+        <field name="context">{'show_einvoice_tab': True}</field>
+        <field name="view_ids" eval="[
+            (5, 0, 0),
+            (0, 0, {'view_mode': 'list', 'view_id': ref('view_einvoice_ar_list')}),
+            (0, 0, {'view_mode': 'form', 'view_id': ref('view_move_form_einvoice_ar')}),
+        ]"/>
+    </record>
+
+
+    <record id="action_send_to_einvoice" model="ir.actions.server">
+        <field name="name">Send to E-Invoice</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">records.action_send_to_einvoice()</field>
+    </record>
+
+</odoo>

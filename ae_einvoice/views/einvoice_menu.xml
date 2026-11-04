@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <menuitem id="menu_einvoice_root"
+              name="E-Invoice"
+              parent="account.menu_finance"
+              sequence="15"/>
+
+    <menuitem id="menu_einvoice_ar"
+              name="AR"
+              parent="menu_einvoice_root"
+              action="action_einvoice_ar"
+              sequence="10"/>
+
+        <menuitem id="menu_einvoice_logs"
+              name="API Logs"
+              parent="menu_einvoice_root"
+              action="action_einvoice_log"
+              sequence="90"
+              groups="account.group_account_invoice"/>
+
+
+</odoo>

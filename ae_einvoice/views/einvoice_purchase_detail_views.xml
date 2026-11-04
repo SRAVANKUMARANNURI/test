@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_einvoice_purchase_detail_form" model="ir.ui.view">
+        <field name="name">einvoice.purchase.detail.form</field>
+        <field name="model">einvoice.purchase</field>
+        <field name="arch" type="xml">
+            <form string="AP Invoice Details" create="false" delete="false">
+                <header>
+                    <button name="action_view_details" type="object" string="Fetch Details" class="btn-primary" invisible="state != 'lookup'"/>
+                    <button name="action_convert_to_bill" type="object" string="Convert to Bill" class="btn-primary" invisible="state != 'review'"/>
+                    <button name="action_move_to_vendor_bills" type="object" string="Move to Vendor Bills" class="btn-primary" invisible="state != 'matched'"/>
+                    <button name="action_refuse" type="object" string="Refuse" invisible="state not in ('review', 'matched')" confirm="Refuse this invoice? It will be locked and any linked draft bill will be cancelled."/>
+                    <button name="action_open_bill" type="object" string="Open Bill" invisible="not bill_id"/>
+                    <field name="state" widget="statusbar" statusbar_visible="lookup,review,matched,released,rejected"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_logs" type="object" class="oe_stat_button" icon="fa-list-alt">
+                            <field name="einvoice_log_count" widget="statinfo" string="API Logs"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group string="Supplier Document">
+                            <field name="document_number"/>
+                            <field name="document_type"/>
+                            <field name="date_added"/>
+                            <field name="detail_fetched_at" invisible="not detail_fetched_at"/>
+                            <field name="document_uuid" invisible="not document_uuid"/>
+                            <field name="generated_date" invisible="not generated_date"/>
+                            <field name="tax_authority_transmission_date" invisible="not tax_authority_transmission_date"/>
+                            <field name="peppol_mls_status" widget="badge"
+                                   decoration-info="peppol_mls_status in ('draft', 'pending')"
+                                   decoration-success="peppol_mls_status == 'accepted'"
+                                   decoration-danger="peppol_mls_status == 'rejected'"/>
+                            <field name="tax_authority_mls_status" widget="badge"
+                                   decoration-info="tax_authority_mls_status in ('draft', 'pending')"
+                                   decoration-success="tax_authority_mls_status == 'accepted'"
+                                   decoration-danger="tax_authority_mls_status == 'rejected'"/>
+                        </group>
+                        <group string="Bill Preparation" invisible="state == 'lookup'">
+                            <field name="currency_id" readonly="state != 'review'" options="{'no_create': True}"/>
+                            <field name="invoice_date" readonly="state != 'review'"/>
+                            <field name="due_date" readonly="state != 'review'"/>
+                            <field name="purchase_order_id" readonly="state != 'review'" options="{'no_create': True}" domain="[('company_id', '=', company_id), ('partner_id', 'child_of', partner_id), ('currency_id', '=', currency_id), ('state', 'in', ['purchase', 'done'])]"/>
+                            <field name="bill_id" invisible="not bill_id"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group string="Supplier (Bill From)">
+                            <field name="supplier_legal_name" invisible="not supplier_legal_name"/>
+                            <field name="supplier_tax_reg_no"/>
+                            <field name="supplier_legal_reg_no" invisible="not supplier_legal_reg_no"/>
+                            <field name="supplier_endpoint" invisible="not supplier_endpoint"/>
+                            <field name="partner_id" string="Odoo Vendor" readonly="state != 'review'" options="{'no_create': True}" domain="[('vat', '=', supplier_tax_reg_no), ('parent_id', '=', False), '|', ('company_id', '=', False), ('company_id', '=', company_id)]"/>
+                        </group>
+                        <group string="Buyer (Our Company)">
+                            <field name="company_id" readonly="1"/>
+                            <field name="entity_name" string="Buyer Legal Name"/>
+                            <field name="entity_tax_reg_no" string="Buyer TRN"/>
+                        </group>
+                    </group>
+                    <notebook invisible="state == 'lookup'">
+                        <page string="Invoice Lines">
+                            <field name="line_ids" readonly="state != 'review'">
+                                <list editable="bottom">
+                                    <field name="company_id" column_invisible="True"/>
+                                    <field name="name"/>
+                                    <field name="product_id" optional="show"/>
+                                    <field name="account_id" domain="[('company_ids', 'in', [company_id]), ('account_type', 'not in', ['asset_receivable', 'liability_payable', 'off_balance'])]"/>
+                                    <field name="quantity"/>
+                                    <field name="source_unit_code" optional="show"/>
+                                    <field name="price_unit"/>
+                                    <field name="discount" optional="show"/>
+                                    <field name="source_tax_rate" optional="show"/>
+                                    <field name="tax_ids" widget="many2many_tags" domain="[('company_id', '=', company_id), ('type_tax_use', '=', 'purchase')]"/>
+                                </list>
+                            </field>
+                            <group string="Reviewed Invoice Totals">
+                                <field name="expected_discount" readonly="1"/>
+                                <field name="expected_untaxed" readonly="state != 'review'"/>
+                                <field name="expected_tax" readonly="state != 'review'"/>
+                                <field name="expected_total" readonly="state != 'review'"/>
+
+                            </group>
+                        </page>
+                        <page string="Other Populated Details">
+                            <p>Supplier, buyer, payment, tax and transmission details received from Cygnet. Changes here are review notes; the bill uses the Bill Preparation fields and Invoice Lines.</p>
+                            <field name="detail_value_ids" readonly="state != 'review'">
+                                <list editable="bottom" create="false" delete="false">
+                                    <field name="path"/>
+                                    <field name="value"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Original Details"><field name="detail_payload"/></page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_einvoice_purchase_list_details" model="ir.ui.view">
+        <field name="name">einvoice.purchase.list.details</field>
+        <field name="model">einvoice.purchase</field>
+        <field name="inherit_id" ref="view_einvoice_purchase_list"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='last_fetched']" position="after">
+                <field name="state" widget="badge" decoration-danger="state == 'rejected'"/>
+                <button name="action_view_details" type="object" string="View" icon="fa-eye"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="action_einvoice_ap" model="ir.actions.act_window">
+        <field name="view_ids" eval="[(5, 0, 0), (0, 0, {'view_mode': 'list', 'view_id': ref('view_einvoice_purchase_list')}), (0, 0, {'view_mode': 'form', 'view_id': ref('view_einvoice_purchase_detail_form')})]"/>
+    </record>
+    <record id="view_einvoice_match_ap_list" model="ir.ui.view">
+        <field name="name">einvoice.purchase.match.list</field>
+        <field name="model">einvoice.purchase</field>
+        <field name="arch" type="xml">
+            <list string="Match APs" create="false" edit="false" delete="false">
+                <header><button name="action_move_to_vendor_bills" type="object" string="Move to Vendor Bills"/></header>
+                <field name="document_number"/>
+                <field name="partner_id"/>
+                <field name="invoice_date"/>
+                <field name="purchase_order_id"/>
+                <field name="currency_id" column_invisible="True"/>
+                <field name="expected_total"/>
+                <field name="bill_id"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <button name="action_view_details" type="object" string="View" icon="fa-eye"/>
+                <button name="action_move_to_vendor_bills" type="object" string="Move to Vendor Bills"/>
+            </list>
+        </field>
+    </record>
+    <record id="action_einvoice_match_ap" model="ir.actions.act_window">
+        <field name="name">Match APs</field>
+        <field name="res_model">einvoice.purchase</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[('state', '=', 'matched')]</field>
+        <field name="view_ids" eval="[(5, 0, 0), (0, 0, {'view_mode': 'list', 'view_id': ref('view_einvoice_match_ap_list')}), (0, 0, {'view_mode': 'form', 'view_id': ref('view_einvoice_purchase_detail_form')})]"/>
+    </record>
+    <menuitem id="menu_einvoice_match_ap" name="Match APs" parent="menu_einvoice_root" action="action_einvoice_match_ap" sequence="30" groups="account.group_account_invoice"/>
+    <record id="account.action_move_in_invoice_type" model="ir.actions.act_window">
+        <field name="domain">[('move_type', 'in', ['in_invoice', 'in_refund', 'in_receipt']), ('einvoice_ap_state', 'not in', ['matched', 'rejected'])]</field>
+    </record>
+    <record id="account.action_move_in_invoice" model="ir.actions.act_window">
+        <field name="domain">[('move_type', 'in', ['in_invoice', 'in_refund', 'in_receipt']), ('einvoice_ap_state', 'not in', ['matched', 'rejected'])]</field>
+    </record>
+    <record id="account.action_move_in_refund_type" model="ir.actions.act_window">
+        <field name="domain">[('move_type', 'in', ['in_invoice', 'in_refund']), ('einvoice_ap_state', 'not in', ['matched', 'rejected'])]</field>
+    </record>
+    <record id="view_move_form_ap_source" model="ir.ui.view">
+        <field name="name">account.move.ap.source</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@id='other_tab_group']" position="inside">
+                <group string="AP E-Invoice" invisible="not einvoice_ap_id">
+                <field name="einvoice_ap_id" invisible="not einvoice_ap_id"/>
+                <field name="einvoice_ap_state" invisible="not einvoice_ap_id"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

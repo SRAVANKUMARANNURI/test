@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_einvoice_config_form" model="ir.ui.view">
+        <field name="name">einvoice.config.form</field>
+        <field name="model">einvoice.config</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group string="Cygnet API Credentials">
+                        <field name="base_url" placeholder="https://your-cygnet-server"/>
+                        <field name="client_id"/>
+                        <field name="client_secret" password="True"/>
+                        <field name="username"/>
+                        <field name="password" password="True"/>
+                    </group>
+                    <group string="Cached Token" groups="base.group_no_one">
+                        <field name="access_token" readonly="1"/>
+                        <field name="token_expiry" readonly="1"/>
+                    </group>
+                    <div class="oe_button_box" name="button_box"/>
+                    <div class="mb-3">
+                        <button name="action_generate_token"
+                                type="object"
+                                string="Generate Access Token"
+                                class="btn-primary"/>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_open_einvoice_config" model="ir.actions.server">
+        <field name="name">Configuration</field>
+        <field name="model_id" ref="model_einvoice_config"/>
+        <field name="state">code</field>
+        <field name="code">action = model.action_open_einvoice_config()</field>
+    </record>
+
+    <menuitem id="menu_einvoice_config"
+              name="Configuration"
+              parent="menu_einvoice_root"
+              action="action_open_einvoice_config"
+              groups="base.group_system"
+              sequence="99"/>
+
+</odoo>
