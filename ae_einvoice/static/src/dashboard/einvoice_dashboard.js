@@ -79,8 +79,8 @@ export class EinvoiceDashboard extends Component {
                 ],
                 barTotal: ar.sent,
                 extras: [
-                    { title: "Peppol delivery", prefix: "peppol", counts: ar.peppol },
-                    { title: "Tax authority (FTA)", prefix: "fta", counts: ar.fta },
+                    { title: "Peppol MLS (C3)", prefix: "peppol", counts: ar.peppol },
+                    { title: "Tax Authority MLS (FTA C5)", prefix: "fta", counts: ar.fta },
                 ],
             },
             {
